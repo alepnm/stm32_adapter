@@ -1,4 +1,4 @@
-update=8/11/2017 11:17:25 AM
+update=8/11/2017 7:43:20 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=libraries/bitbucket/library
+LibDir=../KiCad_Libs/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,8 +58,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=libraries/bitbucket/library/capacitors
-LibName31=libraries/bitbucket/library/disc
-LibName32=libraries/bitbucket/library/ics
-LibName33=libraries/bitbucket/library/mech
-LibName34=libraries/bitbucket/library/resistors
+LibName30=capacitors
+LibName31=disc
+LibName32=ics
+LibName33=mech
+LibName34=resistors

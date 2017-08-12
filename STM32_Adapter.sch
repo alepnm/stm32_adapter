@@ -51,1309 +51,1641 @@ $EndDescr
 $Comp
 L STM32F072V8T6 U101
 U 1 1 598E2D47
-P 8150 6600
-F 0 "U101" H 5350 9425 50  0000 L BNN
-F 1 "STM32F072V8T6" H 10950 9425 50  0000 R BNN
-F 2 "ics:LQFP-100_14x14mm_Pitch0.5mm" H 10950 9375 50  0001 R TNN
-F 3 "" H 5350 9425 50  0001 C CNN
-F 4 "ZELM136" H 5450 9525 60  0001 C CNN "ventcode"
-F 5 "-" H 5550 9625 60  0001 C CNN "Nominalas"
-F 6 "2.3" H 5650 9725 60  0001 C CNN "Kaina"
-F 7 "LQFP100" H 5750 9825 60  0001 C CNN "Korpusas"
-F 8 "1" H 5850 9925 60  0001 C CNN "Aukstis"
-F 9 "STM32F072V8T6" H 5950 10025 60  0001 C CNN "Marke"
-F 10 "Mikroschema" H 6050 10125 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 6150 10225 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 6250 10325 60  0001 C CNN "Nuoroda"
-	1    8150 6600
+P 6300 7600
+F 0 "U101" H 3500 10425 50  0000 L BNN
+F 1 "STM32F072V8T6" H 9100 10425 50  0000 R BNN
+F 2 "ics:LQFP-100_14x14mm_Pitch0.5mm" H 9100 10375 50  0001 R TNN
+F 3 "" H 3500 10425 50  0001 C CNN
+F 4 "ZELM136" H 3600 10525 60  0001 C CNN "ventcode"
+F 5 "-" H 3700 10625 60  0001 C CNN "Nominalas"
+F 6 "2.3" H 3800 10725 60  0001 C CNN "Kaina"
+F 7 "LQFP100" H 3900 10825 60  0001 C CNN "Korpusas"
+F 8 "1" H 4000 10925 60  0001 C CNN "Aukstis"
+F 9 "STM32F072V8T6" H 4100 11025 60  0001 C CNN "Marke"
+F 10 "Mikroschema" H 4200 11125 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4300 11225 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4400 11325 60  0001 C CNN "Nuoroda"
+	1    6300 7600
 	1    0    0    -1  
 $EndComp
-Text Label 4450 6100 0    60   ~ 0
+Text Label 2600 7100 0    60   ~ 0
 PE2
-Text Label 4450 6200 0    60   ~ 0
+Text Label 2600 7200 0    60   ~ 0
 PE3
-Text Label 4450 6300 0    60   ~ 0
+Text Label 2600 7300 0    60   ~ 0
 PE4
-Text Label 4450 6400 0    60   ~ 0
+Text Label 2600 7400 0    60   ~ 0
 PE5
-Text Label 4450 6500 0    60   ~ 0
+Text Label 2600 7500 0    60   ~ 0
 PE6
-Text Label 4450 4600 0    60   ~ 0
+Text Label 2600 5600 0    60   ~ 0
 VBAT
-Text Label 12000 8900 2    60   ~ 0
+Text Label 10150 9900 2    60   ~ 0
 PC13
-Text Label 1300 5400 0    60   ~ 0
+Text Label 8650 1200 0    60   ~ 0
 PE2
-Text Label 3300 5400 2    60   ~ 0
+Text Label 10650 1200 2    60   ~ 0
 PE3
-Text Label 1300 5500 0    60   ~ 0
+Text Label 8650 1300 0    60   ~ 0
 PE4
-Text Label 3300 5500 2    60   ~ 0
+Text Label 10650 1300 2    60   ~ 0
 PE5
-Text Label 1300 5600 0    60   ~ 0
+Text Label 8650 1400 0    60   ~ 0
 PE6
-Text Label 1500 7800 0    60   ~ 0
+Text Label 8650 3600 0    60   ~ 0
 VDD
-Text Label 1500 7700 0    60   ~ 0
+Text Label 8650 3500 0    60   ~ 0
 COM
-Text Label 1500 7600 0    60   ~ 0
+Text Label 8650 3400 0    60   ~ 0
 ~NRST
-Text Label 1500 7500 0    60   ~ 0
+Text Label 8650 3300 0    60   ~ 0
 SWCLK
-Text Label 1500 7400 0    60   ~ 0
+Text Label 8650 3200 0    60   ~ 0
 SWDIO
-Text Label 15250 5250 2    60   ~ 0
+Text Label 13900 1200 2    60   ~ 0
 PWR
-Text Label 3300 5600 2    60   ~ 0
+Text Label 10650 1400 2    60   ~ 0
 VBAT
-Text Label 1300 5700 0    60   ~ 0
+Text Label 8650 1500 0    60   ~ 0
 PC13
-Text Label 3300 5700 2    60   ~ 0
+Text Label 10650 1500 2    60   ~ 0
 PC14
-Text Label 1300 5800 0    60   ~ 0
+Text Label 8650 1600 0    60   ~ 0
 PC15
-Text Label 12000 9000 2    60   ~ 0
-PC14
-Text Label 12000 9100 2    60   ~ 0
-PC15
-Text Label 4450 5600 0    60   ~ 0
+Text Label 10150 10000 2    60   ~ 0
+OSC32IN
+Text Label 10150 10100 2    60   ~ 0
+OSC32OUT
+Text Label 2600 6600 0    60   ~ 0
 PF9
-Text Label 4450 5700 0    60   ~ 0
+Text Label 2600 6700 0    60   ~ 0
 PF10
-Text Label 3300 5800 2    60   ~ 0
+Text Label 10650 1600 2    60   ~ 0
 PF9
-Text Label 1300 5900 0    60   ~ 0
+Text Label 8650 1700 0    60   ~ 0
 PF10
-Text Label 4450 5100 0    60   ~ 0
+Text Label 2600 6100 0    60   ~ 0
+RCCIN
+Text Label 2600 6200 0    60   ~ 0
+RCCOUT
+Text Label 10650 1700 2    60   ~ 0
 PF0
-Text Label 4450 5200 0    60   ~ 0
+Text Label 8650 1800 0    60   ~ 0
 PF1
-Text Label 3300 5900 2    60   ~ 0
-PF0
-Text Label 1300 6000 0    60   ~ 0
-PF1
-Text Label 4450 4200 0    60   ~ 0
+Text Label 2600 5200 0    60   ~ 0
 ~NRST
 $Comp
 L D_BAS32 D101
 U 1 1 598E5131
-P 4400 2250
-F 0 "D101" H 4500 2150 59  0000 C CNN
-F 1 "D_BAS32" H 5750 2250 50  0001 C CNN
-F 2 "disc:D_MiniMELF" H 5300 2250 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAS32L.pdf" H 6000 2250 50  0001 C CNN
-F 4 "ZELD003" H 4400 2050 60  0001 C CNN "ventcode"
-F 5 "-" H 5300 2250 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 5500 2250 60  0001 C CNN "Kaina"
-F 7 "mini Melf" H 5150 2250 60  0001 C CNN "Korpusas"
-F 8 "1.5" H 5000 2250 60  0001 C CNN "Aukstis"
-F 9 "BAS32" H 5100 2250 60  0001 C CNN "Marke"
-F 10 "Diodas" H 4950 2250 60  0001 C CNN "Pavadinimas"
-F 11 "BAS32" H 4200 2150 59  0000 C CNN "Gamintojo Kodas"
-F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:ManufacturerPartNumberUpshiftedSearch%7c*bas32*%7c1%7c,Ny:True,Nea:True" H 7850 2250 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 5000 2250 60  0001 C CNN "Korpuso tipas"
-F 14 "100 V 200 mA Surface Mount High-Speed Switching Diode" H 6050 2250 60  0001 C CNN "Parametras"
-F 15 "-" H 4850 2250 60  0001 C CNN "Komentaras"
-	1    4400 2250
+P 5350 2250
+F 0 "D101" H 5450 2150 59  0000 C CNN
+F 1 "D_BAS32" H 6700 2250 50  0001 C CNN
+F 2 "disc:D_MiniMELF" H 6250 2250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAS32L.pdf" H 6950 2250 50  0001 C CNN
+F 4 "ZELD003" H 5350 2050 60  0001 C CNN "ventcode"
+F 5 "-" H 6250 2250 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 6450 2250 60  0001 C CNN "Kaina"
+F 7 "mini Melf" H 6100 2250 60  0001 C CNN "Korpusas"
+F 8 "1.5" H 5950 2250 60  0001 C CNN "Aukstis"
+F 9 "BAS32" H 6050 2250 60  0001 C CNN "Marke"
+F 10 "Diodas" H 5900 2250 60  0001 C CNN "Pavadinimas"
+F 11 "BAS32" H 5150 2150 59  0000 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:ManufacturerPartNumberUpshiftedSearch%7c*bas32*%7c1%7c,Ny:True,Nea:True" H 8800 2250 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 5950 2250 60  0001 C CNN "Korpuso tipas"
+F 14 "100 V 200 mA Surface Mount High-Speed Switching Diode" H 7000 2250 60  0001 C CNN "Parametras"
+F 15 "-" H 5800 2250 60  0001 C CNN "Komentaras"
+	1    5350 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L C_100n_0805_X7R C101
 U 1 1 598E51CC
-P 4400 2800
-F 0 "C101" H 4425 2900 50  0000 L CNN
-F 1 "C_100n_0805_X7R" H 4200 2700 50  0001 L CNN
-F 2 "capacitors:C_0805" H 4438 2650 50  0001 C CNN
-F 3 "" H 4425 2900 50  0001 C CNN
-F 4 "ZKN065" H 4525 3000 60  0001 C CNN "ventcode"
-F 5 "100n" H 4600 2800 60  0000 C CNN "Nominalas"
-F 6 "0.001" H 4725 3200 60  0001 C CNN "Kaina"
-F 7 "0805" H 4825 3300 60  0001 C CNN "Korpusas"
-F 8 "1" H 4925 3400 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 5025 3500 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 5125 3600 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 5225 3700 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 5325 3800 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 5400 2800 60  0001 C CNN "Korpuso tipas"
-	1    4400 2800
+P 5350 2800
+F 0 "C101" H 5375 2900 50  0000 L CNN
+F 1 "C_100n_0805_X7R" H 5150 2700 50  0001 L CNN
+F 2 "capacitors:C_0805" H 5388 2650 50  0001 C CNN
+F 3 "" H 5375 2900 50  0001 C CNN
+F 4 "ZKN065" H 5475 3000 60  0001 C CNN "ventcode"
+F 5 "100n" H 5550 2800 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 5675 3200 60  0001 C CNN "Kaina"
+F 7 "0805" H 5775 3300 60  0001 C CNN "Korpusas"
+F 8 "1" H 5875 3400 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 5975 3500 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 6075 3600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6175 3700 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6275 3800 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6350 2800 60  0001 C CNN "Korpuso tipas"
+	1    5350 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_15k_0805_1% R101
 U 1 1 598E5249
-P 4700 2250
-F 0 "R101" H 4700 2350 60  0000 C CNN
-F 1 "R_15k_0805_1%" H 6200 2300 60  0001 C CNN
-F 2 "resistors:R_0805" H 5550 2200 60  0001 C CNN
-F 3 "" H 3100 2750 60  0001 C CNN
-F 4 "ZELRS052" H 4700 2050 60  0001 C CNN "ventcode"
-F 5 "15k" H 4700 2150 60  0000 C CNN "Nominalas"
-F 6 "0.001" H 5850 2100 60  0001 C CNN "Kaina"
-F 7 "0805" H 6450 2200 60  0001 C CNN "Korpusas"
-F 8 "1" H 5550 2100 60  0001 C CNN "Aukstis"
-F 9 "RK73" H 6200 2100 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 5450 2300 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 5200 2100 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 5350 2100 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6150 2200 60  0001 C CNN "Korpuso tipas"
-	1    4700 2250
+P 5650 2250
+F 0 "R101" H 5650 2350 60  0000 C CNN
+F 1 "R_15k_0805_1%" H 7150 2300 60  0001 C CNN
+F 2 "resistors:R_0805" H 6500 2200 60  0001 C CNN
+F 3 "" H 4050 2750 60  0001 C CNN
+F 4 "ZELRS052" H 5650 2050 60  0001 C CNN "ventcode"
+F 5 "15k" H 5650 2150 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 6800 2100 60  0001 C CNN "Kaina"
+F 7 "0805" H 7400 2200 60  0001 C CNN "Korpusas"
+F 8 "1" H 6500 2100 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 7150 2100 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 6400 2300 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6150 2100 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6300 2100 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 7100 2200 60  0001 C CNN "Korpuso tipas"
+	1    5650 2250
 	0    -1   -1   0   
 $EndComp
-Text Label 5100 3000 2    60   ~ 0
+Text Label 6050 3000 2    60   ~ 0
 COM
-Text Label 5100 1900 2    60   ~ 0
+Text Label 6050 1900 2    60   ~ 0
 VDD
-Text Label 5100 2550 2    60   ~ 0
+Text Label 6050 2550 2    60   ~ 0
 ~NRST
-Wire Wire Line
-	5150 6100 4450 6100
-Wire Wire Line
-	5150 6200 4450 6200
-Wire Wire Line
-	5150 6300 4450 6300
-Wire Wire Line
-	5150 6400 4450 6400
-Wire Wire Line
-	5150 6500 4450 6500
-Wire Wire Line
-	5150 4600 4450 4600
-Wire Wire Line
-	11150 8900 12000 8900
-Wire Wire Line
-	11150 9000 12000 9000
-Wire Wire Line
-	11150 9100 12000 9100
-Wire Wire Line
-	2050 5400 1300 5400
-Wire Wire Line
-	2550 5400 3300 5400
-Wire Wire Line
-	2050 5500 1300 5500
-Wire Wire Line
-	2550 5500 3300 5500
-Wire Wire Line
-	2050 5600 1300 5600
-Wire Wire Line
-	2550 5600 3300 5600
-Wire Wire Line
-	2050 5700 1300 5700
-Wire Wire Line
-	2550 5700 3300 5700
-Wire Wire Line
-	2050 5800 1300 5800
-Wire Wire Line
-	2550 5800 3300 5800
-Wire Wire Line
-	2050 5900 1300 5900
-Wire Wire Line
-	2550 5900 3300 5900
-Wire Wire Line
-	2050 6000 1300 6000
-Wire Wire Line
-	2550 6000 3300 6000
-Wire Wire Line
-	2050 6100 1300 6100
-Wire Wire Line
-	2550 6100 3300 6100
-Wire Wire Line
-	2050 6200 1300 6200
-Wire Wire Line
-	2550 6200 3300 6200
-Wire Wire Line
-	2050 6300 1300 6300
-Wire Wire Line
-	2550 6300 3300 6300
-Wire Wire Line
-	2050 6400 1300 6400
-Wire Wire Line
-	2550 6400 3300 6400
-Wire Wire Line
-	2050 6500 1300 6500
-Wire Wire Line
-	2550 6500 3300 6500
-Wire Wire Line
-	2050 6600 1300 6600
-Wire Wire Line
-	2550 6600 3300 6600
-Wire Wire Line
-	2050 6700 1300 6700
-Wire Wire Line
-	2550 6700 3300 6700
-Wire Wire Line
-	2050 6800 1300 6800
-Wire Wire Line
-	2550 6800 3300 6800
-Wire Wire Line
-	2050 7800 1500 7800
-Wire Wire Line
-	2050 7700 1500 7700
-Wire Wire Line
-	2050 7600 1500 7600
-Wire Wire Line
-	2050 7500 1500 7500
-Wire Wire Line
-	2050 7400 1500 7400
-Wire Wire Line
-	1300 7300 2050 7300
-Wire Wire Line
-	14450 5250 15250 5250
-Wire Wire Line
-	5150 5600 4450 5600
-Wire Wire Line
-	5150 5700 4450 5700
-Wire Wire Line
-	5150 5100 4450 5100
-Wire Wire Line
-	5150 5200 4450 5200
-Wire Wire Line
-	5150 4200 4450 4200
-Wire Wire Line
-	4700 2500 4700 2550
-Wire Wire Line
-	4400 2550 5100 2550
-Wire Wire Line
-	4400 2400 4400 2650
-Connection ~ 4400 2550
-Wire Wire Line
-	4400 2100 4400 1900
-Wire Wire Line
-	4400 1900 5100 1900
-Wire Wire Line
-	4700 1900 4700 2000
-Wire Wire Line
-	4400 2950 4400 3000
-Wire Wire Line
-	4400 3000 5100 3000
-Connection ~ 4700 2550
-Connection ~ 4700 1900
-Wire Wire Line
-	11150 7600 12000 7600
-Wire Wire Line
-	11150 7700 12000 7700
-Wire Wire Line
-	11150 7800 12000 7800
-Wire Wire Line
-	11150 7900 12000 7900
-Text Label 12000 7600 2    60   ~ 0
+Text Label 10150 8600 2    60   ~ 0
 PC0
-Text Label 12000 7700 2    60   ~ 0
+Text Label 10150 8700 2    60   ~ 0
 PC1
-Text Label 12000 7800 2    60   ~ 0
+Text Label 10150 8800 2    60   ~ 0
 PC2
-Text Label 12000 7900 2    60   ~ 0
+Text Label 10150 8900 2    60   ~ 0
 PC3
-Text Label 3300 6000 2    60   ~ 0
+Text Label 10650 1800 2    60   ~ 0
 PC0
-Text Label 1300 6100 0    60   ~ 0
+Text Label 8650 1900 0    60   ~ 0
 PC1
-Text Label 3300 6100 2    60   ~ 0
+Text Label 10650 1900 2    60   ~ 0
 PC2
-Text Label 1300 6200 0    60   ~ 0
+Text Label 8650 2000 0    60   ~ 0
 PC3
-Wire Wire Line
-	5150 5300 4450 5300
-Text Label 4450 5300 0    60   ~ 0
+Text Label 2600 6300 0    60   ~ 0
 PF2
-Text Label 3300 6200 2    60   ~ 0
+Text Label 10650 2000 2    60   ~ 0
 PF2
-Wire Wire Line
-	8350 9700 8350 9600
-Wire Wire Line
-	8250 9700 8250 9600
-Wire Wire Line
-	7950 9700 8750 9700
-Wire Wire Line
-	7950 9600 7950 9700
-Connection ~ 8250 9700
-Wire Wire Line
-	8050 9600 8050 9700
-Connection ~ 8050 9700
-Wire Wire Line
-	8150 9600 8150 9700
-Connection ~ 8150 9700
-Connection ~ 8350 9700
-Text Label 8750 9700 2    60   ~ 0
+Text Label 6900 10700 2    60   ~ 0
 COM
-Wire Wire Line
-	7950 3200 7950 3600
-Wire Wire Line
-	7950 3500 8150 3500
-Wire Wire Line
-	8150 3500 8150 3600
-Wire Wire Line
-	8050 3600 8050 3500
-Connection ~ 8050 3500
-Wire Wire Line
-	8250 3600 8250 3200
-Wire Wire Line
-	8350 3600 8350 3200
-Connection ~ 7950 3500
-Text Label 7950 3200 3    60   ~ 0
+Text Label 6100 4200 3    60   ~ 0
 VDD
-Text Label 8250 3200 3    60   ~ 0
+Text Label 6400 4200 3    60   ~ 0
 VDDA
-Text Label 8350 3200 3    60   ~ 0
+Text Label 6500 4200 3    60   ~ 0
 VDDIO2
-Wire Wire Line
-	2550 7700 3300 7700
-Wire Wire Line
-	2550 7800 3300 7800
-Text Label 3300 7800 2    60   ~ 0
+Text Label 10650 3600 2    60   ~ 0
 COM
-Text Label 1300 6300 0    60   ~ 0
+Text Label 8650 2100 0    60   ~ 0
 VDDA
-Wire Wire Line
-	5150 5400 4450 5400
-Text Label 4450 5400 0    60   ~ 0
+Text Label 2600 6400 0    60   ~ 0
 PF3
-Text Label 3300 6300 2    60   ~ 0
+Text Label 10650 2100 2    60   ~ 0
 PF3
-Wire Wire Line
-	11150 4200 12000 4200
-Wire Wire Line
-	11150 4300 12000 4300
-Wire Wire Line
-	11150 4400 12000 4400
-Wire Wire Line
-	11150 4500 12000 4500
-Text Label 12000 4200 2    60   ~ 0
+Text Label 10150 5200 2    60   ~ 0
 PA0
-Text Label 12000 4300 2    60   ~ 0
+Text Label 10150 5300 2    60   ~ 0
 PA1
-Text Label 12000 4400 2    60   ~ 0
+Text Label 10150 5400 2    60   ~ 0
 PA2
-Text Label 12000 4500 2    60   ~ 0
+Text Label 10150 5500 2    60   ~ 0
 PA3
-Text Label 1300 6400 0    60   ~ 0
+Text Label 8650 2200 0    60   ~ 0
 PA0
-Text Label 3300 6400 2    60   ~ 0
+Text Label 10650 2200 2    60   ~ 0
 PA1
-Text Label 1300 6500 0    60   ~ 0
+Text Label 8650 2300 0    60   ~ 0
 PA2
-Text Label 3300 6500 2    60   ~ 0
+Text Label 10650 2300 2    60   ~ 0
 PA3
-Wire Wire Line
-	11150 4600 12000 4600
-Wire Wire Line
-	11150 4700 12000 4700
-Wire Wire Line
-	11150 4800 12000 4800
-Wire Wire Line
-	11150 4900 12000 4900
-Text Label 12000 4600 2    60   ~ 0
+Text Label 10150 5600 2    60   ~ 0
 PA4
-Text Label 12000 4700 2    60   ~ 0
+Text Label 10150 5700 2    60   ~ 0
 PA5
-Text Label 12000 4800 2    60   ~ 0
+Text Label 10150 5800 2    60   ~ 0
 PA6
-Text Label 12000 4900 2    60   ~ 0
+Text Label 10150 5900 2    60   ~ 0
 PA7
-Text Label 1300 6600 0    60   ~ 0
+Text Label 8650 2400 0    60   ~ 0
 PA4
-Text Label 3300 6600 2    60   ~ 0
+Text Label 10650 2400 2    60   ~ 0
 PA5
-Text Label 1300 6700 0    60   ~ 0
+Text Label 8650 2500 0    60   ~ 0
 PA6
-Text Label 3300 6700 2    60   ~ 0
+Text Label 10650 2500 2    60   ~ 0
 PA7
-Wire Wire Line
-	11150 8000 12000 8000
-Wire Wire Line
-	11150 8100 12000 8100
-Text Label 12000 8000 2    60   ~ 0
+Text Label 10150 9000 2    60   ~ 0
 PC4
-Text Label 12000 8100 2    60   ~ 0
+Text Label 10150 9100 2    60   ~ 0
 PC5
-Text Label 1300 6800 0    60   ~ 0
+Text Label 8650 2600 0    60   ~ 0
 PC4
-Text Label 3300 6800 2    60   ~ 0
+Text Label 10650 2600 2    60   ~ 0
 PC5
-Wire Wire Line
-	11150 5900 12000 5900
-Wire Wire Line
-	11150 6000 12000 6000
-Wire Wire Line
-	11150 6100 12000 6100
-Text Label 12000 5900 2    60   ~ 0
+Text Label 10150 6900 2    60   ~ 0
 PB0
-Text Label 12000 6000 2    60   ~ 0
+Text Label 10150 7000 2    60   ~ 0
 PB1
-Text Label 12000 6100 2    60   ~ 0
+Text Label 10150 7100 2    60   ~ 0
 PB2
-Wire Wire Line
-	2050 6900 1300 6900
-Wire Wire Line
-	2550 6900 3300 6900
-Wire Wire Line
-	2050 7000 1300 7000
-Wire Wire Line
-	2550 7000 3300 7000
-Text Label 1300 6900 0    60   ~ 0
+Text Label 8650 2700 0    60   ~ 0
 PB0
-Text Label 3300 6900 2    60   ~ 0
+Text Label 10650 2700 2    60   ~ 0
 PB1
-Text Label 1300 7000 0    60   ~ 0
+Text Label 8650 2800 0    60   ~ 0
 PB2
-Wire Wire Line
-	5150 6600 4450 6600
-Wire Wire Line
-	5150 6700 4450 6700
-Wire Wire Line
-	5150 6800 4450 6800
-Wire Wire Line
-	5150 6900 4450 6900
-Wire Wire Line
-	5150 7000 4450 7000
-Wire Wire Line
-	5150 7100 4450 7100
-Wire Wire Line
-	5150 7200 4450 7200
-Wire Wire Line
-	5150 7300 4450 7300
-Wire Wire Line
-	5150 7400 4450 7400
-Text Label 4450 6600 0    60   ~ 0
+Text Label 2600 7600 0    60   ~ 0
 PE7
-Text Label 4450 6700 0    60   ~ 0
+Text Label 2600 7700 0    60   ~ 0
 PE8
-Text Label 4450 6800 0    60   ~ 0
+Text Label 2600 7800 0    60   ~ 0
 PE9
-Text Label 4450 6900 0    60   ~ 0
+Text Label 2600 7900 0    60   ~ 0
 PE10
-Text Label 4450 7000 0    60   ~ 0
+Text Label 2600 8000 0    60   ~ 0
 PE11
-Text Label 4450 7100 0    60   ~ 0
+Text Label 2600 8100 0    60   ~ 0
 PE12
-Text Label 4450 7200 0    60   ~ 0
+Text Label 2600 8200 0    60   ~ 0
 PE13
-Text Label 4450 7300 0    60   ~ 0
+Text Label 2600 8300 0    60   ~ 0
 PE14
-Text Label 4450 7400 0    60   ~ 0
+Text Label 2600 8400 0    60   ~ 0
 PE15
-Wire Wire Line
-	2050 7100 1300 7100
-Wire Wire Line
-	2550 7100 3300 7100
-Wire Wire Line
-	2050 7200 1300 7200
-Wire Wire Line
-	2550 7200 3300 7200
-Text Label 3300 7000 2    60   ~ 0
+Text Label 10650 2800 2    60   ~ 0
 PE7
-Text Label 1300 7100 0    60   ~ 0
+Text Label 8650 2900 0    60   ~ 0
 PE8
-Text Label 3300 7100 2    60   ~ 0
+Text Label 10650 2900 2    60   ~ 0
 PE9
-Text Label 1300 7200 0    60   ~ 0
+Text Label 8650 3000 0    60   ~ 0
 PE10
-Text Label 3300 7200 2    60   ~ 0
+Text Label 10650 3000 2    60   ~ 0
 PE11
-Text Label 1300 7300 0    60   ~ 0
+Text Label 8650 3100 0    60   ~ 0
 PE12
-Wire Wire Line
-	2550 7300 3300 7300
-Wire Wire Line
-	2550 7400 3300 7400
-Wire Wire Line
-	2550 7500 3300 7500
-Wire Wire Line
-	2550 7600 3300 7600
-Text Label 3300 7300 2    60   ~ 0
+Text Label 10650 3100 2    60   ~ 0
 PE13
-Text Label 3300 7400 2    60   ~ 0
+Text Label 10650 3200 2    60   ~ 0
 PE14
-Text Label 3300 7500 2    60   ~ 0
+Text Label 10650 3300 2    60   ~ 0
 PE15
-Wire Wire Line
-	11150 6900 12000 6900
-Wire Wire Line
-	11150 7000 12000 7000
-Text Label 12000 6900 2    60   ~ 0
+Text Label 10150 7900 2    60   ~ 0
 PB10
-Text Label 12000 7000 2    60   ~ 0
+Text Label 10150 8000 2    60   ~ 0
 PB11
-Text Label 3300 7600 2    60   ~ 0
+Text Label 10650 3400 2    60   ~ 0
 PB10
-Text Label 3300 7700 2    60   ~ 0
+Text Label 10650 3500 2    60   ~ 0
 PB11
-Wire Wire Line
-	13300 5250 13950 5250
-Text Label 13300 5250 0    60   ~ 0
+Text Label 11800 1200 0    60   ~ 0
 COM
-Wire Wire Line
-	11150 7100 12000 7100
-Wire Wire Line
-	11150 7200 12000 7200
-Wire Wire Line
-	11150 7300 12000 7300
-Wire Wire Line
-	11150 7400 12000 7400
-Text Label 12000 7100 2    60   ~ 0
+Text Label 10150 8100 2    60   ~ 0
 PB12
-Text Label 12000 7200 2    60   ~ 0
+Text Label 10150 8200 2    60   ~ 0
 PB13
-Text Label 12000 7300 2    60   ~ 0
+Text Label 10150 8300 2    60   ~ 0
 PB14
-Text Label 12000 7400 2    60   ~ 0
+Text Label 10150 8400 2    60   ~ 0
 PB15
-Wire Wire Line
-	13950 7650 13300 7650
-Wire Wire Line
-	14450 7650 15250 7650
-Wire Wire Line
-	13950 7550 13300 7550
-Wire Wire Line
-	14450 7550 15250 7550
-Wire Wire Line
-	13950 7450 13300 7450
-Wire Wire Line
-	14450 7450 15250 7450
-Wire Wire Line
-	13950 7350 13300 7350
-Wire Wire Line
-	14450 7350 15250 7350
-Wire Wire Line
-	13950 7250 13300 7250
-Wire Wire Line
-	14450 7250 15250 7250
-Wire Wire Line
-	13950 7150 13300 7150
-Wire Wire Line
-	14450 7150 15250 7150
-Wire Wire Line
-	14450 7050 15250 7050
-Wire Wire Line
-	13950 7050 13300 7050
-Text Label 13300 7650 0    60   ~ 0
+Text Label 13900 3600 2    60   ~ 0
 PB12
-Text Label 15250 7650 2    60   ~ 0
+Text Label 11800 3500 0    60   ~ 0
 PB13
-Text Label 13300 7550 0    60   ~ 0
+Text Label 13900 3500 2    60   ~ 0
 PB14
-Text Label 15250 7550 2    60   ~ 0
+Text Label 11800 3400 0    60   ~ 0
 PB15
-Wire Wire Line
-	5150 8400 4450 8400
-Wire Wire Line
-	5150 8500 4450 8500
-Wire Wire Line
-	5150 8600 4450 8600
-Wire Wire Line
-	5150 8700 4450 8700
-Wire Wire Line
-	5150 8800 4450 8800
-Wire Wire Line
-	5150 8900 4450 8900
-Wire Wire Line
-	5150 9000 4450 9000
-Wire Wire Line
-	5150 9100 4450 9100
-Text Label 4450 8400 0    60   ~ 0
+Text Label 2600 9400 0    60   ~ 0
 PD8
-Text Label 4450 8500 0    60   ~ 0
+Text Label 2600 9500 0    60   ~ 0
 PD9
-Text Label 4450 8600 0    60   ~ 0
+Text Label 2600 9600 0    60   ~ 0
 PD10
-Text Label 4450 8700 0    60   ~ 0
+Text Label 2600 9700 0    60   ~ 0
 PD11
-Text Label 4450 8800 0    60   ~ 0
+Text Label 2600 9800 0    60   ~ 0
 PD12
-Text Label 4450 8900 0    60   ~ 0
+Text Label 2600 9900 0    60   ~ 0
 PD13
-Text Label 4450 9000 0    60   ~ 0
+Text Label 2600 10000 0    60   ~ 0
 PD14
-Text Label 4450 9100 0    60   ~ 0
+Text Label 2600 10100 0    60   ~ 0
 PD15
-Text Label 13300 7450 0    60   ~ 0
+Text Label 13900 3400 2    60   ~ 0
 PD8
-Text Label 15250 7450 2    60   ~ 0
+Text Label 11800 3300 0    60   ~ 0
 PD9
-Text Label 13300 7350 0    60   ~ 0
+Text Label 13900 3300 2    60   ~ 0
 PD10
-Text Label 15250 7350 2    60   ~ 0
+Text Label 11800 3200 0    60   ~ 0
 PD11
-Text Label 13300 7250 0    60   ~ 0
+Text Label 13900 3200 2    60   ~ 0
 PD12
-Text Label 15250 7250 2    60   ~ 0
+Text Label 11800 3100 0    60   ~ 0
 PD13
-Text Label 13300 7150 0    60   ~ 0
+Text Label 13900 3100 2    60   ~ 0
 PD14
-Text Label 15250 7150 2    60   ~ 0
+Text Label 11800 3000 0    60   ~ 0
 PD15
-Wire Wire Line
-	11150 8200 12000 8200
-Wire Wire Line
-	11150 8300 12000 8300
-Wire Wire Line
-	11150 8400 12000 8400
-Wire Wire Line
-	11150 8500 12000 8500
-Wire Wire Line
-	14450 6950 15250 6950
-Wire Wire Line
-	13950 6950 13300 6950
-Wire Wire Line
-	13950 6850 13300 6850
-Text Label 12000 8200 2    60   ~ 0
+Text Label 10150 9200 2    60   ~ 0
 PC6
-Text Label 12000 8300 2    60   ~ 0
+Text Label 10150 9300 2    60   ~ 0
 PC7
-Text Label 12000 8400 2    60   ~ 0
+Text Label 10150 9400 2    60   ~ 0
 PC8
-Text Label 12000 8500 2    60   ~ 0
+Text Label 10150 9500 2    60   ~ 0
 PC9
-Text Label 13300 7050 0    60   ~ 0
+Text Label 13900 3000 2    60   ~ 0
 PC6
-Text Label 15250 7050 2    60   ~ 0
+Text Label 11800 2900 0    60   ~ 0
 PC7
-Text Label 13300 6950 0    60   ~ 0
+Text Label 13900 2900 2    60   ~ 0
 PC8
-Text Label 15250 6950 2    60   ~ 0
+Text Label 11800 2800 0    60   ~ 0
 PC9
-Wire Wire Line
-	11150 5000 12000 5000
-Wire Wire Line
-	11150 5100 12000 5100
-Wire Wire Line
-	11150 5200 12000 5200
-Wire Wire Line
-	11150 5300 12000 5300
-Wire Wire Line
-	11150 5400 12000 5400
-Wire Wire Line
-	11150 5500 12000 5500
-Text Label 12000 5000 2    60   ~ 0
+Text Label 10150 6000 2    60   ~ 0
 PA8
-Text Label 12000 5100 2    60   ~ 0
+Text Label 10150 6100 2    60   ~ 0
 PA9
-Text Label 12000 5200 2    60   ~ 0
+Text Label 10150 6200 2    60   ~ 0
 PA10
-Text Label 12000 5300 2    60   ~ 0
+Text Label 10150 6300 2    60   ~ 0
 PA11
-Text Label 12000 5400 2    60   ~ 0
+Text Label 10150 6400 2    60   ~ 0
 PA12
-Text Label 12000 5500 2    60   ~ 0
+Text Label 10150 6500 2    60   ~ 0
 SWDIO
-Text Label 13300 6850 0    60   ~ 0
+Text Label 13900 2800 2    60   ~ 0
 PA8
-Wire Wire Line
-	14450 6850 15250 6850
-Wire Wire Line
-	13950 6750 13300 6750
-Wire Wire Line
-	14450 6750 15250 6750
-Wire Wire Line
-	13950 6650 13300 6650
-Wire Wire Line
-	14450 6650 15250 6650
-Wire Wire Line
-	13950 6550 13300 6550
-Text Label 15250 6850 2    60   ~ 0
+Text Label 11800 2700 0    60   ~ 0
 PA9
-Text Label 13300 6750 0    60   ~ 0
+Text Label 13900 2700 2    60   ~ 0
 PA10
-Text Label 15250 6750 2    60   ~ 0
+Text Label 11800 2600 0    60   ~ 0
 PA11
-Text Label 13300 6650 0    60   ~ 0
+Text Label 13900 2600 2    60   ~ 0
 PA12
-Text Label 15250 6650 2    60   ~ 0
-PA13
-Wire Wire Line
-	5150 5500 4450 5500
-Text Label 4450 5500 0    60   ~ 0
+Text Label 2600 6500 0    60   ~ 0
 PF6
-Text Label 13300 6550 0    60   ~ 0
+Text Label 11800 2500 0    60   ~ 0
 PF6
-Wire Wire Line
-	14450 6550 15250 6550
-Text Label 15250 6550 2    60   ~ 0
+Text Label 13900 2500 2    60   ~ 0
 VDDIO2
-Wire Wire Line
-	11150 5600 12000 5600
-Wire Wire Line
-	11150 5700 12000 5700
-Text Label 12000 5600 2    60   ~ 0
+Text Label 10150 6600 2    60   ~ 0
 SWCLK
-Text Label 12000 5700 2    60   ~ 0
+Text Label 10150 6700 2    60   ~ 0
 PA15
-Wire Wire Line
-	11150 8600 12000 8600
-Wire Wire Line
-	11150 8700 12000 8700
-Wire Wire Line
-	11150 8800 12000 8800
-Text Label 12000 8600 2    60   ~ 0
+Text Label 10150 9600 2    60   ~ 0
 PC10
-Text Label 12000 8700 2    60   ~ 0
+Text Label 10150 9700 2    60   ~ 0
 PC11
-Text Label 12000 8800 2    60   ~ 0
+Text Label 10150 9800 2    60   ~ 0
 PC12
-Wire Wire Line
-	13950 6450 13300 6450
-Wire Wire Line
-	14450 6450 15250 6450
-Wire Wire Line
-	13950 6350 13300 6350
-Text Label 13300 6450 0    60   ~ 0
+Text Label 11800 2400 0    60   ~ 0
 PC10
-Text Label 15250 6450 2    60   ~ 0
+Text Label 13900 2400 2    60   ~ 0
 PC11
-Text Label 13300 6350 0    60   ~ 0
+Text Label 11800 2300 0    60   ~ 0
 PC12
-Wire Wire Line
-	5150 7600 4450 7600
-Wire Wire Line
-	5150 7700 4450 7700
-Wire Wire Line
-	5150 7800 4450 7800
-Wire Wire Line
-	5150 7900 4450 7900
-Wire Wire Line
-	5150 8000 4450 8000
-Wire Wire Line
-	5150 8100 4450 8100
-Wire Wire Line
-	5150 8200 4450 8200
-Wire Wire Line
-	5150 8300 4450 8300
-Text Label 4450 7600 0    60   ~ 0
+Text Label 2600 8600 0    60   ~ 0
 PD0
-Text Label 4450 7700 0    60   ~ 0
+Text Label 2600 8700 0    60   ~ 0
 PD1
-Text Label 4450 7800 0    60   ~ 0
+Text Label 2600 8800 0    60   ~ 0
 PD2
-Text Label 4450 7900 0    60   ~ 0
+Text Label 2600 8900 0    60   ~ 0
 PD3
-Text Label 4450 8000 0    60   ~ 0
+Text Label 2600 9000 0    60   ~ 0
 PD4
-Text Label 4450 8100 0    60   ~ 0
+Text Label 2600 9100 0    60   ~ 0
 PD5
-Text Label 4450 8200 0    60   ~ 0
+Text Label 2600 9200 0    60   ~ 0
 PD6
-Text Label 4450 8300 0    60   ~ 0
+Text Label 2600 9300 0    60   ~ 0
 PD7
-Wire Wire Line
-	14450 6350 15250 6350
-Wire Wire Line
-	13950 6250 13300 6250
-Wire Wire Line
-	14450 6250 15250 6250
-Wire Wire Line
-	13950 6150 13300 6150
-Wire Wire Line
-	14450 6150 15250 6150
-Wire Wire Line
-	13950 6050 13300 6050
-Wire Wire Line
-	14450 6050 15250 6050
-Wire Wire Line
-	13950 5950 13300 5950
-Text Label 13300 6250 0    60   ~ 0
+Text Label 11800 2200 0    60   ~ 0
 PD2
-Text Label 15250 6350 2    60   ~ 0
+Text Label 13900 2300 2    60   ~ 0
 PD0
-Text Label 15250 6250 2    60   ~ 0
+Text Label 13900 2200 2    60   ~ 0
 PD1
-Text Label 13300 6150 0    60   ~ 0
+Text Label 11800 2100 0    60   ~ 0
 PD4
-Text Label 15250 6150 2    60   ~ 0
+Text Label 13900 2100 2    60   ~ 0
 PD3
-Text Label 13300 6050 0    60   ~ 0
+Text Label 11800 2000 0    60   ~ 0
 PD6
-Text Label 15250 6050 2    60   ~ 0
+Text Label 13900 2000 2    60   ~ 0
 PD5
-Text Label 13300 5950 0    60   ~ 0
+Text Label 11800 1900 0    60   ~ 0
 PB3
-Wire Wire Line
-	11150 6200 12000 6200
-Wire Wire Line
-	11150 6300 12000 6300
-Wire Wire Line
-	11150 6400 12000 6400
-Wire Wire Line
-	11150 6500 12000 6500
-Wire Wire Line
-	11150 6600 12000 6600
-Text Label 12000 6200 2    60   ~ 0
+Text Label 10150 7200 2    60   ~ 0
 PB3
-Text Label 12000 6300 2    60   ~ 0
+Text Label 10150 7300 2    60   ~ 0
 PB4
-Text Label 12000 6400 2    60   ~ 0
+Text Label 10150 7400 2    60   ~ 0
 PB5
-Text Label 12000 6500 2    60   ~ 0
+Text Label 10150 7500 2    60   ~ 0
 PB6
-Text Label 12000 6600 2    60   ~ 0
+Text Label 10150 7600 2    60   ~ 0
 PB7
-Wire Wire Line
-	14450 5950 15250 5950
-Wire Wire Line
-	13950 5850 13300 5850
-Wire Wire Line
-	14450 5850 15250 5850
-Wire Wire Line
-	13950 5750 13300 5750
-Wire Wire Line
-	14450 5750 15250 5750
-Text Label 15250 5950 2    60   ~ 0
+Text Label 13900 1900 2    60   ~ 0
 PD7
-Text Label 13300 5850 0    60   ~ 0
+Text Label 11800 1800 0    60   ~ 0
 PB5
-Text Label 15250 5850 2    60   ~ 0
+Text Label 13900 1800 2    60   ~ 0
 PB4
-Text Label 13300 5750 0    60   ~ 0
+Text Label 11800 1700 0    60   ~ 0
 PB7
-Text Label 15250 5750 2    60   ~ 0
+Text Label 13900 1700 2    60   ~ 0
 PB6
-Wire Wire Line
-	5150 4400 4450 4400
-Text Label 4450 4400 0    60   ~ 0
+Text Label 2800 5400 0    60   ~ 0
 BOOT0
-Wire Wire Line
-	13950 5650 13300 5650
-Text Label 13300 5650 0    60   ~ 0
+Text Label 11800 1600 0    60   ~ 0
 BOOT0
-Wire Wire Line
-	11150 6700 12000 6700
-Wire Wire Line
-	11150 6800 12000 6800
-Text Label 12000 6700 2    60   ~ 0
+Text Label 10150 7700 2    60   ~ 0
 PB8
-Text Label 12000 6800 2    60   ~ 0
+Text Label 10150 7800 2    60   ~ 0
 PB9
-Wire Wire Line
-	14450 5650 15250 5650
-Wire Wire Line
-	13950 5550 13300 5550
-Text Label 15250 5650 2    60   ~ 0
+Text Label 13900 1500 2    60   ~ 0
 PB8
-Text Label 13300 5550 0    60   ~ 0
+Text Label 11800 1500 0    60   ~ 0
 PB9
-Wire Wire Line
-	5150 5900 4450 5900
-Wire Wire Line
-	5150 6000 4450 6000
-Text Label 4450 5900 0    60   ~ 0
+Text Label 2600 6900 0    60   ~ 0
 PE0
-Text Label 4450 6000 0    60   ~ 0
+Text Label 2600 7000 0    60   ~ 0
 PE1
-Wire Wire Line
-	14450 5550 15250 5550
-Text Label 15250 5550 2    60   ~ 0
+Text Label 13900 1400 2    60   ~ 0
 PE0
-Text Label 13300 5450 0    60   ~ 0
+Text Label 11800 1400 0    60   ~ 0
 PE1
-Wire Wire Line
-	13950 5450 13300 5450
 $Comp
 L SIP21106 U102
 U 1 1 598F11A6
-P 13850 4150
-F 0 "U102" H 14050 4450 59  0000 L CNN
-F 1 "SIP21106" H 15400 4300 50  0001 L CNN
-F 2 "ics:SOT-23-5" H 14900 4200 50  0001 C CIN
-F 3 "http://datasheet.octopart.com/SIP21106DR-33-E3-Vishay-datasheet-8328765.pdf" H 16250 4000 50  0001 C CNN
-F 4 "ZELM092" H 13850 3850 60  0001 C CNN "ventcode"
-F 5 "-" H 14650 4100 60  0001 C CNN "Nominalas"
-F 6 "0.04" H 15400 4100 60  0001 C CNN "Kaina"
-F 7 "SOT23-5" H 16150 4300 60  0001 C CNN "Korpusas"
-F 8 "1.0" H 15150 4100 60  0001 C CNN "Aukstis"
-F 9 "-" H 14750 4100 60  0001 C CNN "Marke"
-F 10 "Mikroschema" H 14950 4300 60  0001 C CNN "Pavadinimas"
-F 11 "SIP21106DT" H 13700 4450 59  0000 C CNN "Gamintojo Kodas"
-F 12 "-" H 17400 3800 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 15400 4200 47  0001 C CNN "Korpuso tipas"
-F 14 "-" H 14950 4100 60  0001 C CNN "Parametras"
-F 15 "-" H 14850 4100 60  0001 C CNN "Komentaras"
-	1    13850 4150
+P 13150 8650
+F 0 "U102" H 13350 8950 59  0000 L CNN
+F 1 "SIP21106" H 14700 8800 50  0001 L CNN
+F 2 "ics:SOT-23-5" H 14200 8700 50  0001 C CIN
+F 3 "http://datasheet.octopart.com/SIP21106DR-33-E3-Vishay-datasheet-8328765.pdf" H 15550 8500 50  0001 C CNN
+F 4 "ZELM092" H 13150 8350 60  0001 C CNN "ventcode"
+F 5 "-" H 13950 8600 60  0001 C CNN "Nominalas"
+F 6 "0.04" H 14700 8600 60  0001 C CNN "Kaina"
+F 7 "SOT23-5" H 15450 8800 60  0001 C CNN "Korpusas"
+F 8 "1.0" H 14450 8600 60  0001 C CNN "Aukstis"
+F 9 "-" H 14050 8600 60  0001 C CNN "Marke"
+F 10 "Mikroschema" H 14250 8800 60  0001 C CNN "Pavadinimas"
+F 11 "SIP21106DT" H 13000 8950 59  0000 C CNN "Gamintojo Kodas"
+F 12 "-" H 16700 8300 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 14700 8700 47  0001 C CNN "Korpuso tipas"
+F 14 "-" H 14250 8600 60  0001 C CNN "Parametras"
+F 15 "-" H 14150 8600 60  0001 C CNN "Komentaras"
+	1    13150 8650
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 4000 15400 4000
-Text Label 15400 4000 2    60   ~ 0
+Text Label 15200 8500 2    60   ~ 0
 PWR
-Wire Wire Line
-	14250 4100 14350 4100
-Text Label 15400 4700 2    60   ~ 0
+Text Label 15200 9200 2    60   ~ 0
 COM
 $Comp
 L R_1k_0805_1% R102
 U 1 1 598F1A2E
-P 14700 4200
-F 0 "R102" H 14700 4300 60  0000 C CNN
-F 1 "R_1k_0805_1%" H 16150 4200 60  0001 C CNN
-F 2 "resistors:R_0805" H 15550 4100 60  0001 C CNN
-F 3 "" H 13100 4700 60  0001 C CNN
-F 4 "ZELRS061" H 14700 4000 60  0001 C CNN "ventcode"
-F 5 "1k" H 14700 4100 60  0000 C CNN "Nominalas"
-F 6 "0.001" H 15900 4000 60  0001 C CNN "Kaina"
-F 7 "0805" H 16200 4100 60  0001 C CNN "Korpusas"
-F 8 "1" H 15650 4000 60  0001 C CNN "Aukstis"
-F 9 "RK73" H 16250 4000 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 15450 4200 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 15200 4000 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 15300 4000 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 16500 4100 60  0001 C CNN "Korpuso tipas"
-	1    14700 4200
+P 14000 8700
+F 0 "R102" H 14000 8800 60  0000 C CNN
+F 1 "R_1k_0805_1%" H 15450 8700 60  0001 C CNN
+F 2 "resistors:R_0805" H 14850 8600 60  0001 C CNN
+F 3 "" H 12400 9200 60  0001 C CNN
+F 4 "ZELRS061" H 14000 8500 60  0001 C CNN "ventcode"
+F 5 "1k" H 14000 8600 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 15200 8500 60  0001 C CNN "Kaina"
+F 7 "0805" H 15500 8600 60  0001 C CNN "Korpusas"
+F 8 "1" H 14950 8500 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 15550 8500 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 14750 8700 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 14500 8500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 14600 8500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 15800 8600 60  0001 C CNN "Korpuso tipas"
+	1    14000 8700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 4200 14450 4200
-Wire Wire Line
-	14950 4200 15050 4200
-Wire Wire Line
-	15050 4000 15050 4300
-Connection ~ 15050 4000
-Wire Wire Line
-	12650 4000 13450 4000
-Text Label 12650 4000 0    60   ~ 0
+Text Label 11100 8500 0    60   ~ 0
 VDD
 $Comp
 L C_100n_0805_X7R C102
 U 1 1 598F1ED7
-P 13100 4250
-F 0 "C102" H 12750 4300 50  0000 L CNN
-F 1 "C_100n_0805_X7R" H 12900 4150 50  0001 L CNN
-F 2 "capacitors:C_0805" H 13138 4100 50  0001 C CNN
-F 3 "" H 13125 4350 50  0001 C CNN
-F 4 "ZKN065" H 13225 4450 60  0001 C CNN "ventcode"
-F 5 "100n" H 12850 4200 60  0000 C CNN "Nominalas"
-F 6 "0.001" H 13425 4650 60  0001 C CNN "Kaina"
-F 7 "0805" H 13525 4750 60  0001 C CNN "Korpusas"
-F 8 "1" H 13625 4850 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 13725 4950 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 13825 5050 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 13925 5150 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 14025 5250 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 14100 4250 60  0001 C CNN "Korpuso tipas"
-	1    13100 4250
+P 12400 8750
+F 0 "C102" H 12050 8800 50  0000 L CNN
+F 1 "C_100n_0805_X7R" H 12200 8650 50  0001 L CNN
+F 2 "capacitors:C_0805" H 12438 8600 50  0001 C CNN
+F 3 "" H 12425 8850 50  0001 C CNN
+F 4 "ZKN065" H 12525 8950 60  0001 C CNN "ventcode"
+F 5 "100n" H 12150 8700 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 12725 9150 60  0001 C CNN "Kaina"
+F 7 "0805" H 12825 9250 60  0001 C CNN "Korpusas"
+F 8 "1" H 12925 9350 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 13025 9450 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 13125 9550 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 13225 9650 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 13325 9750 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 13400 8750 60  0001 C CNN "Korpuso tipas"
+	1    12400 8750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13100 4400 13100 4700
-Wire Wire Line
-	13100 4700 15400 4700
-Wire Wire Line
-	14350 4100 14350 4700
-Connection ~ 14350 4700
-Wire Wire Line
-	13100 4100 13100 4000
-Connection ~ 13100 4000
 $Comp
 L C_100n_0805_X7R C103
 U 1 1 598F24E7
-P 13350 4450
-F 0 "C103" H 13500 4450 50  0000 L CNN
-F 1 "C_100n_0805_X7R" H 13150 4350 50  0001 L CNN
-F 2 "capacitors:C_0805" H 13388 4300 50  0001 C CNN
-F 3 "" H 13375 4550 50  0001 C CNN
-F 4 "ZKN065" H 13475 4650 60  0001 C CNN "ventcode"
-F 5 "100n" H 13600 4350 60  0000 C CNN "Nominalas"
-F 6 "0.001" H 13675 4850 60  0001 C CNN "Kaina"
-F 7 "0805" H 13775 4950 60  0001 C CNN "Korpusas"
-F 8 "1" H 13875 5050 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 13975 5150 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 14075 5250 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 14175 5350 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 14275 5450 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 14350 4450 60  0001 C CNN "Korpuso tipas"
-	1    13350 4450
+P 12650 8950
+F 0 "C103" H 12800 8950 50  0000 L CNN
+F 1 "C_100n_0805_X7R" H 12450 8850 50  0001 L CNN
+F 2 "capacitors:C_0805" H 12688 8800 50  0001 C CNN
+F 3 "" H 12675 9050 50  0001 C CNN
+F 4 "ZKN065" H 12775 9150 60  0001 C CNN "ventcode"
+F 5 "100n" H 12900 8850 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 12975 9350 60  0001 C CNN "Kaina"
+F 7 "0805" H 13075 9450 60  0001 C CNN "Korpusas"
+F 8 "1" H 13175 9550 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 13275 9650 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 13375 9750 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 13475 9850 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 13575 9950 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 13650 8950 60  0001 C CNN "Korpuso tipas"
+	1    12650 8950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13450 4200 13350 4200
-Wire Wire Line
-	13350 4200 13350 4300
-Wire Wire Line
-	13350 4600 13350 4700
-Connection ~ 13350 4700
 $Comp
 L C_100n_0805_X7R C104
 U 1 1 598F2C67
-P 15050 4450
-F 0 "C104" H 15200 4500 50  0000 L CNN
-F 1 "C_100n_0805_X7R" H 14850 4350 50  0001 L CNN
-F 2 "capacitors:C_0805" H 15088 4300 50  0001 C CNN
-F 3 "" H 15075 4550 50  0001 C CNN
-F 4 "ZKN065" H 15175 4650 60  0001 C CNN "ventcode"
-F 5 "100n" H 15300 4400 60  0000 C CNN "Nominalas"
-F 6 "0.001" H 15375 4850 60  0001 C CNN "Kaina"
-F 7 "0805" H 15475 4950 60  0001 C CNN "Korpusas"
-F 8 "1" H 15575 5050 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 15675 5150 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 15775 5250 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 15875 5350 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 15975 5450 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 16050 4450 60  0001 C CNN "Korpuso tipas"
-	1    15050 4450
+P 14350 8950
+F 0 "C104" H 14500 9000 50  0000 L CNN
+F 1 "C_100n_0805_X7R" H 14150 8850 50  0001 L CNN
+F 2 "capacitors:C_0805" H 14388 8800 50  0001 C CNN
+F 3 "" H 14375 9050 50  0001 C CNN
+F 4 "ZKN065" H 14475 9150 60  0001 C CNN "ventcode"
+F 5 "100n" H 14600 8900 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 14675 9350 60  0001 C CNN "Kaina"
+F 7 "0805" H 14775 9450 60  0001 C CNN "Korpusas"
+F 8 "1" H 14875 9550 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 14975 9650 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 15075 9750 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 15175 9850 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 15275 9950 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 15350 8950 60  0001 C CNN "Korpuso tipas"
+	1    14350 8950
 	1    0    0    -1  
 $EndComp
-Connection ~ 15050 4200
-Wire Wire Line
-	15050 4600 15050 4700
-Connection ~ 15050 4700
 $Comp
 L Jumper JP101
 U 1 1 598F3706
-P 2000 1850
-F 0 "JP101" H 2000 2000 50  0000 C CNN
-F 1 "Jumper" H 2000 1770 50  0000 C CNN
-F 2 "" H 2000 1850 50  0001 C CNN
-F 3 "" H 2000 1850 50  0001 C CNN
-	1    2000 1850
+P 2100 1650
+F 0 "JP101" H 2100 1800 50  0000 C CNN
+F 1 "Jumper" H 2100 1570 50  0000 C CNN
+F 2 "mech:SMD_Jumper" H 2100 1650 50  0001 C CNN
+F 3 "" H 2100 1650 50  0001 C CNN
+	1    2100 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper JP102
 U 1 1 598F3F14
-P 2000 2250
-F 0 "JP102" H 2000 2400 50  0000 C CNN
-F 1 "Jumper" H 2000 2170 50  0000 C CNN
-F 2 "" H 2000 2250 50  0001 C CNN
-F 3 "" H 2000 2250 50  0001 C CNN
-	1    2000 2250
+P 2100 2050
+F 0 "JP102" H 2100 2200 50  0000 C CNN
+F 1 "Jumper" H 2100 1970 50  0000 C CNN
+F 2 "mech:SMD_Jumper" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 1850 1400 1850
-Wire Wire Line
-	2300 1850 2950 1850
-Wire Wire Line
-	1700 2250 1400 2250
-Text Label 1400 1850 0    60   ~ 0
+Text Label 1500 1650 0    60   ~ 0
 PC14
-Text Label 1400 2250 0    60   ~ 0
+Text Label 1500 2050 0    60   ~ 0
 PC15
 $Comp
 L Jumper JP103
 U 1 1 598F569B
-P 2000 2900
-F 0 "JP103" H 2000 3050 50  0000 C CNN
-F 1 "Jumper" H 2000 2820 50  0000 C CNN
-F 2 "" H 2000 2900 50  0001 C CNN
-F 3 "" H 2000 2900 50  0001 C CNN
-	1    2000 2900
+P 2100 2600
+F 0 "JP103" H 2100 2750 50  0000 C CNN
+F 1 "Jumper" H 2100 2520 50  0000 C CNN
+F 2 "mech:SMD_Jumper" H 2100 2600 50  0001 C CNN
+F 3 "" H 2100 2600 50  0001 C CNN
+	1    2100 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper JP104
 U 1 1 598F56D6
-P 2000 3300
-F 0 "JP104" H 2000 3450 50  0000 C CNN
-F 1 "Jumper" H 2000 3220 50  0000 C CNN
-F 2 "" H 2000 3300 50  0001 C CNN
-F 3 "" H 2000 3300 50  0001 C CNN
-	1    2000 3300
+P 2100 3000
+F 0 "JP104" H 2100 3150 50  0000 C CNN
+F 1 "Jumper" H 2100 2920 50  0000 C CNN
+F 2 "mech:SMD_Jumper" H 2100 3000 50  0001 C CNN
+F 3 "" H 2100 3000 50  0001 C CNN
+	1    2100 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 2900 1400 2900
-Wire Wire Line
-	1700 3300 1400 3300
-Wire Wire Line
-	2300 2900 2950 2900
-Text Label 1400 2900 0    60   ~ 0
+Text Label 1500 2600 0    60   ~ 0
 PF0
-Text Label 1400 3300 0    60   ~ 0
+Text Label 1500 3000 0    60   ~ 0
 PF1
 $Comp
 L C_22p_0805_X7R C105
 U 1 1 598F640D
-P 3100 1850
-F 0 "C105" V 3250 1900 59  0000 L CNN
-F 1 "C_22p_0805_X7R" H 4950 1950 50  0001 L CNN
-F 2 "capacitors:C_0805" H 3950 1850 50  0001 C CNN
-F 3 "" H 3125 1950 50  0001 C CNN
-F 4 "-" H 3150 1600 60  0001 C CNN "ventcode"
-F 5 "22pF" V 3250 1700 60  0000 C CNN "Nominalas"
-F 6 "0" H 4050 1750 60  0001 C CNN "Kaina"
-F 7 "0805" H 4550 1850 60  0001 C CNN "Korpusas"
-F 8 "1" H 3850 1750 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 4650 1950 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 3950 1950 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3650 1700 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3650 1750 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4850 1850 60  0001 C CNN "Korpuso tipas"
-F 14 "50V" H 5100 1850 60  0001 C CNN "Parametras"
-F 15 "-" H 3650 1650 60  0001 C CNN "Komentaras"
-	1    3100 1850
+P 4350 1650
+F 0 "C105" V 4500 1700 59  0000 L CNN
+F 1 "C_22p_0805_X7R" H 6200 1750 50  0001 L CNN
+F 2 "capacitors:C_0805" H 5200 1650 50  0001 C CNN
+F 3 "" H 4375 1750 50  0001 C CNN
+F 4 "-" H 4400 1400 60  0001 C CNN "ventcode"
+F 5 "22pF" V 4500 1500 60  0000 C CNN "Nominalas"
+F 6 "0" H 5300 1550 60  0001 C CNN "Kaina"
+F 7 "0805" H 5800 1650 60  0001 C CNN "Korpusas"
+F 8 "1" H 5100 1550 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 5900 1750 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 5200 1750 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4900 1500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4900 1550 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6100 1650 60  0001 C CNN "Korpuso tipas"
+F 14 "50V" H 6350 1650 60  0001 C CNN "Parametras"
+F 15 "-" H 4900 1450 60  0001 C CNN "Komentaras"
+	1    4350 1650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C_22p_0805_X7R C106
 U 1 1 598F64E6
-P 3100 2250
-F 0 "C106" V 3250 2300 59  0000 L CNN
-F 1 "C_22p_0805_X7R" H 4950 2350 50  0001 L CNN
-F 2 "capacitors:C_0805" H 3950 2250 50  0001 C CNN
-F 3 "" H 3125 2350 50  0001 C CNN
-F 4 "-" H 3150 2000 60  0001 C CNN "ventcode"
-F 5 "22pF" V 3250 2100 60  0000 C CNN "Nominalas"
-F 6 "0" H 4050 2150 60  0001 C CNN "Kaina"
-F 7 "0805" H 4550 2250 60  0001 C CNN "Korpusas"
-F 8 "1" H 3850 2150 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 4650 2350 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 3950 2350 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3650 2100 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3650 2150 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4850 2250 60  0001 C CNN "Korpuso tipas"
-F 14 "50V" H 5100 2250 60  0001 C CNN "Parametras"
-F 15 "-" H 3650 2050 60  0001 C CNN "Komentaras"
-	1    3100 2250
+P 4350 2050
+F 0 "C106" V 4500 2100 59  0000 L CNN
+F 1 "C_22p_0805_X7R" H 6200 2150 50  0001 L CNN
+F 2 "capacitors:C_0805" H 5200 2050 50  0001 C CNN
+F 3 "" H 4375 2150 50  0001 C CNN
+F 4 "-" H 4400 1800 60  0001 C CNN "ventcode"
+F 5 "22pF" V 4500 1900 60  0000 C CNN "Nominalas"
+F 6 "0" H 5300 1950 60  0001 C CNN "Kaina"
+F 7 "0805" H 5800 2050 60  0001 C CNN "Korpusas"
+F 8 "1" H 5100 1950 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 5900 2150 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 5200 2150 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4900 1900 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4900 1950 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6100 2050 60  0001 C CNN "Korpuso tipas"
+F 14 "50V" H 6350 2050 60  0001 C CNN "Parametras"
+F 15 "-" H 4900 1850 60  0001 C CNN "Komentaras"
+	1    4350 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C_22p_0805_X7R C107
 U 1 1 598F65A3
-P 3100 2900
-F 0 "C107" V 3250 2950 59  0000 L CNN
-F 1 "C_22p_0805_X7R" H 4950 3000 50  0001 L CNN
-F 2 "capacitors:C_0805" H 3950 2900 50  0001 C CNN
-F 3 "" H 3125 3000 50  0001 C CNN
-F 4 "-" H 3150 2650 60  0001 C CNN "ventcode"
-F 5 "22pF" V 3250 2800 60  0000 C CNN "Nominalas"
-F 6 "0" H 4050 2800 60  0001 C CNN "Kaina"
-F 7 "0805" H 4550 2900 60  0001 C CNN "Korpusas"
-F 8 "1" H 3850 2800 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 4650 3000 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 3950 3000 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3650 2750 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3650 2800 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4850 2900 60  0001 C CNN "Korpuso tipas"
-F 14 "50V" H 5100 2900 60  0001 C CNN "Parametras"
-F 15 "-" H 3650 2700 60  0001 C CNN "Komentaras"
-	1    3100 2900
+P 4350 2600
+F 0 "C107" V 4500 2650 59  0000 L CNN
+F 1 "C_22p_0805_X7R" H 6200 2700 50  0001 L CNN
+F 2 "capacitors:C_0805" H 5200 2600 50  0001 C CNN
+F 3 "" H 4375 2700 50  0001 C CNN
+F 4 "-" H 4400 2350 60  0001 C CNN "ventcode"
+F 5 "22pF" V 4500 2500 60  0000 C CNN "Nominalas"
+F 6 "0" H 5300 2500 60  0001 C CNN "Kaina"
+F 7 "0805" H 5800 2600 60  0001 C CNN "Korpusas"
+F 8 "1" H 5100 2500 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 5900 2700 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 5200 2700 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4900 2450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4900 2500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6100 2600 60  0001 C CNN "Korpuso tipas"
+F 14 "50V" H 6350 2600 60  0001 C CNN "Parametras"
+F 15 "-" H 4900 2400 60  0001 C CNN "Komentaras"
+	1    4350 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C_22p_0805_X7R C108
 U 1 1 598F668E
-P 3100 3300
-F 0 "C108" V 3250 3350 59  0000 L CNN
-F 1 "C_22p_0805_X7R" H 4950 3400 50  0001 L CNN
-F 2 "capacitors:C_0805" H 3950 3300 50  0001 C CNN
-F 3 "" H 3125 3400 50  0001 C CNN
-F 4 "-" H 3150 3050 60  0001 C CNN "ventcode"
-F 5 "22pF" V 3250 3200 60  0000 C CNN "Nominalas"
-F 6 "0" H 4050 3200 60  0001 C CNN "Kaina"
-F 7 "0805" H 4550 3300 60  0001 C CNN "Korpusas"
-F 8 "1" H 3850 3200 60  0001 C CNN "Aukstis"
-F 9 "X7R0805K" H 4650 3400 60  0001 C CNN "Marke"
-F 10 "Kondensatorius" H 3950 3400 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3650 3150 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3650 3200 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4850 3300 60  0001 C CNN "Korpuso tipas"
-F 14 "50V" H 5100 3300 60  0001 C CNN "Parametras"
-F 15 "-" H 3650 3100 60  0001 C CNN "Komentaras"
-	1    3100 3300
+P 4350 3000
+F 0 "C108" V 4500 3050 59  0000 L CNN
+F 1 "C_22p_0805_X7R" H 6200 3100 50  0001 L CNN
+F 2 "capacitors:C_0805" H 5200 3000 50  0001 C CNN
+F 3 "" H 4375 3100 50  0001 C CNN
+F 4 "-" H 4400 2750 60  0001 C CNN "ventcode"
+F 5 "22pF" V 4500 2900 60  0000 C CNN "Nominalas"
+F 6 "0" H 5300 2900 60  0001 C CNN "Kaina"
+F 7 "0805" H 5800 3000 60  0001 C CNN "Korpusas"
+F 8 "1" H 5100 2900 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 5900 3100 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 5200 3100 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4900 2850 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4900 2900 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6100 3000 60  0001 C CNN "Korpuso tipas"
+F 14 "50V" H 6350 3000 60  0001 C CNN "Parametras"
+F 15 "-" H 4900 2800 60  0001 C CNN "Komentaras"
+	1    4350 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Crystal_smd_11x5 Y101
 U 1 1 598F7158
-P 2700 2050
-F 0 "Y101" V 3050 2050 59  0000 C CNN
-F 1 "Crystal_smd_11x5" H 6000 2050 50  0001 C CNN
-F 2 "disc:Crystal_SMD_HC49-SD" H 3500 2150 50  0001 C CNN
-F 3 "" H 2700 2200 50  0001 C CNN
-F 4 "ZEL166" H 4200 2150 60  0001 C CNN "ventcode"
-F 5 "8Mhz" V 2950 2000 60  0000 C CNN "Nominalas"
-F 6 "0.09" H 3100 2050 60  0001 C CNN "Kaina"
-F 7 "11x5" H 3350 2050 60  0001 C CNN "Korpusas"
-F 8 "4.5" H 4100 2050 60  0001 C CNN "Aukstis"
-F 9 "HC49SDLF" H 3750 2050 60  0001 C CNN "Marke"
-F 10 "Kvarcas" H 4400 2050 60  0001 C CNN "Pavadinimas"
-F 11 "HC49SDLF" H 4850 2050 60  0001 C CNN "Gamintojo Kodas"
-F 12 "http://www.futureelectronics.com/en/technologies/electromechanical/timing-devices/crystals/Pages/7072549-FOXSDLF-080-20-TR.aspx?IM=0" H 6400 1950 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 5200 2050 60  0001 C CNN "Korpuso tipas"
-F 14 "8Mhz" H 5450 2050 60  0001 C CNN "Parametras"
-F 15 "-" H 5600 2050 60  0001 C CNN "Komentaras"
-	1    2700 2050
+P 3950 2800
+F 0 "Y101" V 4300 2900 59  0000 C CNN
+F 1 "Crystal_smd_11x5" H 7250 2800 50  0001 C CNN
+F 2 "disc:Crystal_SMD_HC49-SD" H 4750 2900 50  0001 C CNN
+F 3 "" H 3950 2950 50  0001 C CNN
+F 4 "ZEL166" H 5450 2900 60  0001 C CNN "ventcode"
+F 5 "8Mhz" V 4200 2900 60  0000 C CNN "Nominalas"
+F 6 "0.09" H 4350 2800 60  0001 C CNN "Kaina"
+F 7 "11x5" H 4600 2800 60  0001 C CNN "Korpusas"
+F 8 "4.5" H 5350 2800 60  0001 C CNN "Aukstis"
+F 9 "HC49SDLF" H 5000 2800 60  0001 C CNN "Marke"
+F 10 "Kvarcas" H 5650 2800 60  0001 C CNN "Pavadinimas"
+F 11 "HC49SDLF" H 6100 2800 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/technologies/electromechanical/timing-devices/crystals/Pages/7072549-FOXSDLF-080-20-TR.aspx?IM=0" H 7650 2700 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6450 2800 60  0001 C CNN "Korpuso tipas"
+F 14 "8Mhz" H 6700 2800 60  0001 C CNN "Parametras"
+F 15 "-" H 6850 2800 60  0001 C CNN "Komentaras"
+	1    3950 2800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2700 1900 2700 1850
-Connection ~ 2700 1850
-Wire Wire Line
-	2700 2200 2700 2250
-Connection ~ 2700 2250
 $Comp
 L Crystal_smd_32768_horizontal Y102
 U 1 1 598D8413
-P 2700 3100
-F 0 "Y102" V 3050 3200 59  0000 C CNN
-F 1 "Crystal_smd_32768_horizontal" H 3550 3100 50  0001 C CNN
-F 2 "disc:Crystal_32768_horizontzl" H 3550 3100 50  0001 C CNN
-F 3 "http://www.abracon.com/Resonators/AB38T.pdf" H 3900 3100 50  0001 C CNN
-F 4 "ZEL041" H 3450 3100 60  0001 C CNN "ventcode"
-F 5 "32.768khz" V 2950 3200 60  0000 C CNN "Nominalas"
-F 6 "0.05" H 3250 3100 60  0001 C CNN "Kaina"
-F 7 "8x3" H 3150 3100 60  0001 C CNN "Korpusas"
-F 8 "3" H 3350 3100 60  0001 C CNN "Aukstis"
-F 9 "R26-32.768-12.5-EXT-NPB" H 3650 3100 60  0001 C CNN "Marke"
-F 10 "Kvarcas" H 3200 3100 60  0001 C CNN "Pavadinimas"
-F 11 "R26-32.768-12.5-EXT-NPB" H 3650 3100 60  0001 C CNN "Gamintojo Kodas"
-F 12 "http://www.futureelectronics.com/en/technologies/electromechanical/timing-devices/crystals/Pages/5415690-R26-32.768-12.5-EXT-NPB.aspx?IM=0" H 6450 3100 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 3250 3100 60  0001 C CNN "Korpuso tipas"
-F 14 "32.768khz" H 3650 3100 60  0001 C CNN "Parametras"
-F 15 "-" H 4850 3000 60  0001 C CNN "Komentaras"
-	1    2700 3100
+P 3950 1850
+F 0 "Y102" V 4300 1950 59  0000 C CNN
+F 1 "Crystal_smd_32768_horizontal" H 4800 1850 50  0001 C CNN
+F 2 "disc:Crystal_32768_horizontzl" H 4800 1850 50  0001 C CNN
+F 3 "http://www.abracon.com/Resonators/AB38T.pdf" H 5150 1850 50  0001 C CNN
+F 4 "ZEL041" H 4700 1850 60  0001 C CNN "ventcode"
+F 5 "32.768khz" V 4200 1950 60  0000 C CNN "Nominalas"
+F 6 "0.05" H 4500 1850 60  0001 C CNN "Kaina"
+F 7 "8x3" H 4400 1850 60  0001 C CNN "Korpusas"
+F 8 "3" H 4600 1850 60  0001 C CNN "Aukstis"
+F 9 "R26-32.768-12.5-EXT-NPB" H 4900 1850 60  0001 C CNN "Marke"
+F 10 "Kvarcas" H 4450 1850 60  0001 C CNN "Pavadinimas"
+F 11 "R26-32.768-12.5-EXT-NPB" H 4900 1850 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/technologies/electromechanical/timing-devices/crystals/Pages/5415690-R26-32.768-12.5-EXT-NPB.aspx?IM=0" H 7700 1850 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 4500 1850 60  0001 C CNN "Korpuso tipas"
+F 14 "32.768khz" H 4900 1850 60  0001 C CNN "Parametras"
+F 15 "-" H 6100 1750 60  0001 C CNN "Komentaras"
+	1    3950 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2700 2900 2700 2950
-Wire Wire Line
-	2700 3250 2700 3300
-Wire Wire Line
-	2300 3300 2950 3300
-Connection ~ 2700 3300
-Connection ~ 2700 2900
-Wire Wire Line
-	2300 2250 2950 2250
-Wire Wire Line
-	3250 1850 3350 1850
-Wire Wire Line
-	3350 1850 3350 3300
-Wire Wire Line
-	3350 2250 3250 2250
-Wire Wire Line
-	3250 3300 3700 3300
-Connection ~ 3350 2250
-Wire Wire Line
-	3250 2900 3350 2900
-Connection ~ 3350 2900
-Connection ~ 3350 3300
-Text Label 3700 3300 2    60   ~ 0
+Text Label 4600 3450 1    60   ~ 0
 COM
-Wire Wire Line
-	13950 5350 13850 5350
-Wire Wire Line
-	13850 5350 13850 5250
-Connection ~ 13850 5250
-Wire Wire Line
-	14450 5350 14550 5350
-Wire Wire Line
-	14550 5350 14550 5250
-Connection ~ 14550 5250
 $Comp
 L PinHeader_02X25 J101
 U 1 1 598E3422
-P 2300 6600
-F 0 "J101" H 2300 7900 50  0000 C CNN
-F 1 "PinHeader_02X25" V 2300 6600 50  0000 C CNN
-F 2 "mech:Pin_Header_Straight_2x25_Pitch2.54mm" H 3600 6200 50  0001 C CNN
-F 3 "" H 2300 5850 50  0001 C CNN
-	1    2300 6600
+P 9650 2400
+F 0 "J101" H 9650 3700 50  0000 C CNN
+F 1 "PinHeader_02X25" V 9650 2400 50  0000 C CNN
+F 2 "mech:Pin_Header_Straight_2x25_Pitch2.54mm" H 10950 2000 50  0001 C CNN
+F 3 "" H 9650 1650 50  0001 C CNN
+	1    9650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L PinHeader_02X25 J102
 U 1 1 598E36F1
-P 14200 6450
-F 0 "J102" H 14200 7750 50  0000 C CNN
-F 1 "PinHeader_02X25" V 14200 6450 50  0000 C CNN
-F 2 "mech:Pin_Header_Straight_2x25_Pitch2.54mm" H 15500 6050 50  0001 C CNN
-F 3 "" H 14200 5700 50  0001 C CNN
-	1    14200 6450
+P 12850 2400
+F 0 "J102" H 12850 3700 50  0000 C CNN
+F 1 "PinHeader_02X25" V 12850 2400 50  0000 C CNN
+F 2 "mech:Pin_Header_Straight_2x25_Pitch2.54mm" H 14150 2000 50  0001 C CNN
+F 3 "" H 12850 1650 50  0001 C CNN
+	1    12850 2400
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_470_0805_1% R1
+U 1 1 598DF837
+P 3500 3000
+F 0 "R1" H 3500 3100 60  0000 C CNN
+F 1 "R_470_0805_1%" H 3500 2900 60  0001 C CNN
+F 2 "resistors:R_0805" H 3500 2800 60  0001 C CNN
+F 3 "" H 1900 3500 60  0001 C CNN
+F 4 "ZELRS056" H 3600 3200 60  0001 C CNN "ventcode"
+F 5 "470" H 3500 2900 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 3750 2800 60  0001 C CNN "Kaina"
+F 7 "0805" H 3700 2800 60  0001 C CNN "Korpusas"
+F 8 "1" H 3700 2800 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 3700 2800 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4200 3800 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4300 3900 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4400 4000 60  0001 C CNN "Nuoroda"
+	1    3500 3000
+	1    0    0    -1  
+$EndComp
+Text Label 3150 3450 1    60   ~ 0
+RCCIN
+Text Label 3050 3450 1    60   ~ 0
+RCCOUT
+Text Label 2800 3450 1    60   ~ 0
+OSC32IN
+Text Label 2700 3450 1    60   ~ 0
+OSC32OUT
+$Comp
+L R_10k_0805_1% R2
+U 1 1 598E61DD
+P 2400 5400
+F 0 "R2" H 2400 5500 60  0000 C CNN
+F 1 "R_10k_0805_1%" H 2400 5300 60  0001 C CNN
+F 2 "resistors:R_0805" H 2400 5200 60  0001 C CNN
+F 3 "" H 800 5900 60  0001 C CNN
+F 4 "ZELRS051" H 2500 5600 60  0001 C CNN "ventcode"
+F 5 "10k" H 2400 5300 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 2650 5200 60  0001 C CNN "Kaina"
+F 7 "0805" H 2600 5200 60  0001 C CNN "Korpusas"
+F 8 "1" H 2600 5200 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 2600 5200 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 3100 6200 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 3200 6300 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 3300 6400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 3400 6500 60  0001 C CNN "Korpuso tipas"
+	1    2400 5400
+	1    0    0    -1  
+$EndComp
+Text Label 1800 5400 0    60   ~ 0
+VDD
+$Comp
+L R_120_0805_1% R3
+U 1 1 598E6D16
+P 14200 1600
+F 0 "R3" H 14200 1700 60  0000 C CNN
+F 1 "R_120_0805_1%" H 14200 1500 60  0001 C CNN
+F 2 "resistors:R_0805" H 14200 1400 60  0001 C CNN
+F 3 "" H 12600 2100 60  0001 C CNN
+F 4 "ZELRS055" H 14300 1800 60  0001 C CNN "ventcode"
+F 5 "120R" H 14200 1500 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 14450 1400 60  0001 C CNN "Kaina"
+F 7 "0805" H 14400 1400 60  0001 C CNN "Korpusas"
+F 8 "1" H 14400 1400 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 14400 1400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 14900 2400 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 15000 2500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 15100 2600 60  0001 C CNN "Nuoroda"
+	1    14200 1600
+	1    0    0    -1  
+$EndComp
+Text Label 14750 1600 2    60   ~ 0
+COM
+$Comp
+L D_BAS85 D1
+U 1 1 598E87E3
+P 12050 8500
+F 0 "D1" H 11950 8600 59  0000 C CNN
+F 1 "D_BAS85" H 12650 8500 60  0001 C CNN
+F 2 "disc:D_MiniMELF" H 12600 8500 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85510/bas85.pdf" H 13200 8500 50  0001 C CNN
+F 4 "ZELD004" H 12050 8300 60  0001 C CNN "ventcode"
+F 5 "-" H 12500 8500 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 12400 8500 60  0001 C CNN "Kaina"
+F 7 "mini Melf, (SOD 80C)" H 12900 8500 60  0001 C CNN "Korpusas"
+F 8 "1.5" H 12350 8500 60  0001 C CNN "Aukstis"
+F 9 "BAS85" H 12200 8600 60  0000 C CNN "Marke"
+F 10 "Diodas" H 12600 8500 60  0001 C CNN "Pavadinimas"
+F 11 "BAS85" H 12450 8500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:PartNumberSearch%7cbas85%7c1%7c,Ny:True,Nea:True" H 14900 8500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 13100 8500 60  0001 C CNN "Korpuso tipas"
+F 14 "BAS85 Series 30 V 200 mA Small Signal Schottky" H 13200 8500 47  0001 C CNN "Parametras"
+F 15 "-" H 12650 8500 60  0001 C CNN "Komentaras"
+	1    12050 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_0805_X7R C1
+U 1 1 598EB8FF
+P 5850 4500
+F 0 "C1" V 6000 4650 61  0000 L CNN
+F 1 "C_100n_0805_X7R" H 5650 4400 50  0001 L CNN
+F 2 "capacitors:C_0805" H 5888 4350 50  0001 C CNN
+F 3 "" H 5875 4600 50  0001 C CNN
+F 4 "ZKN065" H 5975 4700 60  0001 C CNN "ventcode"
+F 5 "100n" V 6000 4500 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 6175 4900 60  0001 C CNN "Kaina"
+F 7 "0805" H 6275 5000 60  0001 C CNN "Korpusas"
+F 8 "1" H 6375 5100 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 6475 5200 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 6575 5300 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6675 5400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6775 5500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6850 4500 60  0001 C CNN "Korpuso tipas"
+	1    5850 4500
+	0    -1   -1   0   
+$EndComp
+Text Label 5250 4500 0    60   ~ 0
+COM
+Wire Wire Line
+	3300 7100 2600 7100
+Wire Wire Line
+	3300 7200 2600 7200
+Wire Wire Line
+	3300 7300 2600 7300
+Wire Wire Line
+	3300 7400 2600 7400
+Wire Wire Line
+	3300 7500 2600 7500
+Wire Wire Line
+	3300 5600 2600 5600
+Wire Wire Line
+	9300 9900 10150 9900
+Wire Wire Line
+	9300 10000 10150 10000
+Wire Wire Line
+	9300 10100 10150 10100
+Wire Wire Line
+	9400 1200 8650 1200
+Wire Wire Line
+	9900 1200 10650 1200
+Wire Wire Line
+	9400 1300 8650 1300
+Wire Wire Line
+	9900 1300 10650 1300
+Wire Wire Line
+	9400 1400 8650 1400
+Wire Wire Line
+	9900 1400 10650 1400
+Wire Wire Line
+	9400 1500 8650 1500
+Wire Wire Line
+	9900 1500 10650 1500
+Wire Wire Line
+	9400 1600 8650 1600
+Wire Wire Line
+	9900 1600 10650 1600
+Wire Wire Line
+	9400 1700 8650 1700
+Wire Wire Line
+	9900 1700 10650 1700
+Wire Wire Line
+	9400 1800 8650 1800
+Wire Wire Line
+	9900 1800 10650 1800
+Wire Wire Line
+	9400 1900 8650 1900
+Wire Wire Line
+	9900 1900 10650 1900
+Wire Wire Line
+	9400 2000 8650 2000
+Wire Wire Line
+	9900 2000 10650 2000
+Wire Wire Line
+	9400 2100 8650 2100
+Wire Wire Line
+	9900 2100 10650 2100
+Wire Wire Line
+	9400 2200 8650 2200
+Wire Wire Line
+	9900 2200 10650 2200
+Wire Wire Line
+	9400 2300 8650 2300
+Wire Wire Line
+	9900 2300 10650 2300
+Wire Wire Line
+	9400 2400 8650 2400
+Wire Wire Line
+	9900 2400 10650 2400
+Wire Wire Line
+	9400 2500 8650 2500
+Wire Wire Line
+	9900 2500 10650 2500
+Wire Wire Line
+	9400 2600 8650 2600
+Wire Wire Line
+	9900 2600 10650 2600
+Wire Wire Line
+	9400 3600 8650 3600
+Wire Wire Line
+	9400 3500 8650 3500
+Wire Wire Line
+	9400 3400 8650 3400
+Wire Wire Line
+	9400 3300 8650 3300
+Wire Wire Line
+	9400 3200 8650 3200
+Wire Wire Line
+	8650 3100 9400 3100
+Wire Wire Line
+	13100 1200 13900 1200
+Wire Wire Line
+	3300 6600 2600 6600
+Wire Wire Line
+	3300 6700 2600 6700
+Wire Wire Line
+	3300 6100 2600 6100
+Wire Wire Line
+	3300 6200 2600 6200
+Wire Wire Line
+	3300 5200 2600 5200
+Wire Wire Line
+	5650 2500 5650 2550
+Wire Wire Line
+	5350 2550 6050 2550
+Wire Wire Line
+	5350 2400 5350 2650
+Connection ~ 5350 2550
+Wire Wire Line
+	5350 2100 5350 1900
+Wire Wire Line
+	5350 1900 6050 1900
+Wire Wire Line
+	5650 1900 5650 2000
+Wire Wire Line
+	5350 2950 5350 3000
+Wire Wire Line
+	5350 3000 6050 3000
+Connection ~ 5650 2550
+Connection ~ 5650 1900
+Wire Wire Line
+	9300 8600 10150 8600
+Wire Wire Line
+	9300 8700 10150 8700
+Wire Wire Line
+	9300 8800 10150 8800
+Wire Wire Line
+	9300 8900 10150 8900
+Wire Wire Line
+	3300 6300 2600 6300
+Wire Wire Line
+	6500 10700 6500 10600
+Wire Wire Line
+	6400 10700 6400 10600
+Wire Wire Line
+	6100 10700 6900 10700
+Wire Wire Line
+	6100 10600 6100 10700
+Connection ~ 6400 10700
+Wire Wire Line
+	6200 10600 6200 10700
+Connection ~ 6200 10700
+Wire Wire Line
+	6300 10600 6300 10700
+Connection ~ 6300 10700
+Connection ~ 6500 10700
+Wire Wire Line
+	6100 4200 6100 4600
+Wire Wire Line
+	6000 4500 6300 4500
+Wire Wire Line
+	6300 4500 6300 4600
+Wire Wire Line
+	6200 4600 6200 4500
+Connection ~ 6200 4500
+Wire Wire Line
+	6400 4600 6400 4200
+Wire Wire Line
+	6500 4600 6500 4200
+Connection ~ 6100 4500
+Wire Wire Line
+	9900 3500 10650 3500
+Wire Wire Line
+	9900 3600 10650 3600
+Wire Wire Line
+	3300 6400 2600 6400
+Wire Wire Line
+	9300 5200 10150 5200
+Wire Wire Line
+	9300 5300 10150 5300
+Wire Wire Line
+	9300 5400 10150 5400
+Wire Wire Line
+	9300 5500 10150 5500
+Wire Wire Line
+	9300 5600 10150 5600
+Wire Wire Line
+	9300 5700 10150 5700
+Wire Wire Line
+	9300 5800 10150 5800
+Wire Wire Line
+	9300 5900 10150 5900
+Wire Wire Line
+	9300 9000 10150 9000
+Wire Wire Line
+	9300 9100 10150 9100
+Wire Wire Line
+	9300 6900 10150 6900
+Wire Wire Line
+	9300 7000 10150 7000
+Wire Wire Line
+	9300 7100 10150 7100
+Wire Wire Line
+	9400 2700 8650 2700
+Wire Wire Line
+	9900 2700 10650 2700
+Wire Wire Line
+	9400 2800 8650 2800
+Wire Wire Line
+	9900 2800 10650 2800
+Wire Wire Line
+	3300 7600 2600 7600
+Wire Wire Line
+	3300 7700 2600 7700
+Wire Wire Line
+	3300 7800 2600 7800
+Wire Wire Line
+	3300 7900 2600 7900
+Wire Wire Line
+	3300 8000 2600 8000
+Wire Wire Line
+	3300 8100 2600 8100
+Wire Wire Line
+	3300 8200 2600 8200
+Wire Wire Line
+	3300 8300 2600 8300
+Wire Wire Line
+	3300 8400 2600 8400
+Wire Wire Line
+	9400 2900 8650 2900
+Wire Wire Line
+	9900 2900 10650 2900
+Wire Wire Line
+	9400 3000 8650 3000
+Wire Wire Line
+	9900 3000 10650 3000
+Wire Wire Line
+	9900 3100 10650 3100
+Wire Wire Line
+	9900 3200 10650 3200
+Wire Wire Line
+	9900 3300 10650 3300
+Wire Wire Line
+	9900 3400 10650 3400
+Wire Wire Line
+	9300 7900 10150 7900
+Wire Wire Line
+	9300 8000 10150 8000
+Wire Wire Line
+	11800 1200 12600 1200
+Wire Wire Line
+	9300 8100 10150 8100
+Wire Wire Line
+	9300 8200 10150 8200
+Wire Wire Line
+	9300 8300 10150 8300
+Wire Wire Line
+	9300 8400 10150 8400
+Wire Wire Line
+	13100 3600 13900 3600
+Wire Wire Line
+	12600 3500 11800 3500
+Wire Wire Line
+	13100 3500 13900 3500
+Wire Wire Line
+	12600 3400 11800 3400
+Wire Wire Line
+	13100 3400 13900 3400
+Wire Wire Line
+	12600 3300 11800 3300
+Wire Wire Line
+	13100 3300 13900 3300
+Wire Wire Line
+	12600 3200 11800 3200
+Wire Wire Line
+	13100 3200 13900 3200
+Wire Wire Line
+	12600 3100 11800 3100
+Wire Wire Line
+	13100 3100 13900 3100
+Wire Wire Line
+	12600 3000 11800 3000
+Wire Wire Line
+	12600 2900 11800 2900
+Wire Wire Line
+	13100 3000 13900 3000
+Wire Wire Line
+	3300 9400 2600 9400
+Wire Wire Line
+	3300 9500 2600 9500
+Wire Wire Line
+	3300 9600 2600 9600
+Wire Wire Line
+	3300 9700 2600 9700
+Wire Wire Line
+	3300 9800 2600 9800
+Wire Wire Line
+	3300 9900 2600 9900
+Wire Wire Line
+	3300 10000 2600 10000
+Wire Wire Line
+	3300 10100 2600 10100
+Wire Wire Line
+	9300 9200 10150 9200
+Wire Wire Line
+	9300 9300 10150 9300
+Wire Wire Line
+	9300 9400 10150 9400
+Wire Wire Line
+	9300 9500 10150 9500
+Wire Wire Line
+	12600 2800 11800 2800
+Wire Wire Line
+	13100 2900 13900 2900
+Wire Wire Line
+	13100 2800 13900 2800
+Wire Wire Line
+	9300 6000 10150 6000
+Wire Wire Line
+	9300 6100 10150 6100
+Wire Wire Line
+	9300 6200 10150 6200
+Wire Wire Line
+	9300 6300 10150 6300
+Wire Wire Line
+	9300 6400 10150 6400
+Wire Wire Line
+	9300 6500 10150 6500
+Wire Wire Line
+	12600 2700 11800 2700
+Wire Wire Line
+	13100 2700 13900 2700
+Wire Wire Line
+	12600 2600 11800 2600
+Wire Wire Line
+	13100 2600 13900 2600
+Wire Wire Line
+	12600 2500 11800 2500
+Wire Wire Line
+	3300 6500 2600 6500
+Wire Wire Line
+	13100 2500 13900 2500
+Wire Wire Line
+	9300 6600 10150 6600
+Wire Wire Line
+	9300 6700 10150 6700
+Wire Wire Line
+	9300 9600 10150 9600
+Wire Wire Line
+	9300 9700 10150 9700
+Wire Wire Line
+	9300 9800 10150 9800
+Wire Wire Line
+	12600 2400 11800 2400
+Wire Wire Line
+	13100 2400 13900 2400
+Wire Wire Line
+	12600 2300 11800 2300
+Wire Wire Line
+	3300 8600 2600 8600
+Wire Wire Line
+	3300 8700 2600 8700
+Wire Wire Line
+	3300 8800 2600 8800
+Wire Wire Line
+	3300 8900 2600 8900
+Wire Wire Line
+	3300 9000 2600 9000
+Wire Wire Line
+	3300 9100 2600 9100
+Wire Wire Line
+	3300 9200 2600 9200
+Wire Wire Line
+	3300 9300 2600 9300
+Wire Wire Line
+	13100 2300 13900 2300
+Wire Wire Line
+	12600 2200 11800 2200
+Wire Wire Line
+	13100 2200 13900 2200
+Wire Wire Line
+	12600 2100 11800 2100
+Wire Wire Line
+	13100 2100 13900 2100
+Wire Wire Line
+	12600 2000 11800 2000
+Wire Wire Line
+	13100 2000 13900 2000
+Wire Wire Line
+	12600 1900 11800 1900
+Wire Wire Line
+	9300 7200 10150 7200
+Wire Wire Line
+	9300 7300 10150 7300
+Wire Wire Line
+	9300 7400 10150 7400
+Wire Wire Line
+	9300 7500 10150 7500
+Wire Wire Line
+	9300 7600 10150 7600
+Wire Wire Line
+	13100 1900 13900 1900
+Wire Wire Line
+	12600 1800 11800 1800
+Wire Wire Line
+	13100 1800 13900 1800
+Wire Wire Line
+	12600 1700 11800 1700
+Wire Wire Line
+	13100 1700 13900 1700
+Wire Wire Line
+	3300 5400 2650 5400
+Wire Wire Line
+	12600 1600 11800 1600
+Wire Wire Line
+	9300 7700 10150 7700
+Wire Wire Line
+	9300 7800 10150 7800
+Wire Wire Line
+	13100 1500 13900 1500
+Wire Wire Line
+	12600 1500 11800 1500
+Wire Wire Line
+	3300 6900 2600 6900
+Wire Wire Line
+	3300 7000 2600 7000
+Wire Wire Line
+	13100 1400 13900 1400
+Wire Wire Line
+	12600 1400 11800 1400
+Wire Wire Line
+	13550 8500 15200 8500
+Wire Wire Line
+	13550 8600 13650 8600
+Wire Wire Line
+	13550 8700 13750 8700
+Wire Wire Line
+	14250 8700 14350 8700
+Wire Wire Line
+	14350 8500 14350 8800
+Connection ~ 14350 8500
+Wire Wire Line
+	12200 8500 12750 8500
+Wire Wire Line
+	12400 9200 12400 8900
+Wire Wire Line
+	11450 9200 15200 9200
+Wire Wire Line
+	13650 8600 13650 9200
+Connection ~ 13650 9200
+Wire Wire Line
+	12400 8600 12400 8500
+Connection ~ 12400 8500
+Wire Wire Line
+	12750 8700 12650 8700
+Wire Wire Line
+	12650 8700 12650 8800
+Wire Wire Line
+	12650 9100 12650 9200
+Connection ~ 12650 9200
+Connection ~ 14350 8700
+Wire Wire Line
+	14350 9100 14350 9200
+Connection ~ 14350 9200
+Wire Wire Line
+	1800 1650 1500 1650
+Wire Wire Line
+	2400 1650 4200 1650
+Wire Wire Line
+	1800 2050 1500 2050
+Wire Wire Line
+	1800 2600 1500 2600
+Wire Wire Line
+	1800 3000 1500 3000
+Wire Wire Line
+	2400 2600 4200 2600
+Wire Wire Line
+	3950 1700 3950 1650
+Connection ~ 3950 1650
+Wire Wire Line
+	3950 2050 3950 2000
+Connection ~ 3950 2050
+Wire Wire Line
+	3950 2600 3950 2650
+Wire Wire Line
+	3950 2950 3950 3000
+Wire Wire Line
+	3750 3000 4200 3000
+Connection ~ 3950 3000
+Connection ~ 3950 2600
+Wire Wire Line
+	2400 2050 4200 2050
+Wire Wire Line
+	4500 1650 4600 1650
+Wire Wire Line
+	4600 1650 4600 3450
+Wire Wire Line
+	4600 2050 4500 2050
+Wire Wire Line
+	4600 3000 4500 3000
+Connection ~ 4600 2050
+Wire Wire Line
+	4500 2600 4600 2600
+Connection ~ 4600 2600
+Connection ~ 4600 3000
+Wire Wire Line
+	12600 1300 12500 1300
+Wire Wire Line
+	12500 1300 12500 1200
+Connection ~ 12500 1200
+Wire Wire Line
+	13100 1300 13200 1300
+Wire Wire Line
+	13200 1300 13200 1200
+Connection ~ 13200 1200
+Wire Wire Line
+	2400 3000 3250 3000
+Wire Wire Line
+	2700 2050 2700 3450
+Connection ~ 2700 2050
+Wire Wire Line
+	2800 1650 2800 3450
+Connection ~ 2800 1650
+Wire Wire Line
+	3150 2600 3150 3450
+Connection ~ 3150 2600
+Wire Wire Line
+	3050 3000 3050 3450
+Connection ~ 3050 3000
+Wire Wire Line
+	13100 1600 13950 1600
+Wire Wire Line
+	2150 5400 1800 5400
+Wire Wire Line
+	14450 1600 14750 1600
+Wire Wire Line
+	11100 8500 11900 8500
+Wire Wire Line
+	5700 4500 5250 4500
+$Comp
+L C_100n_0805_X7R C110
+U 1 1 598F7663
+P 11800 8950
+F 0 "C110" H 11825 9050 50  0000 L CNN
+F 1 "C_100n_0805_X7R" H 11600 8850 50  0001 L CNN
+F 2 "capacitors:C_0805" H 11838 8800 50  0001 C CNN
+F 3 "" H 11825 9050 50  0001 C CNN
+F 4 "ZKN065" H 11925 9150 60  0001 C CNN "ventcode"
+F 5 "100n" H 12000 8950 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 12125 9350 60  0001 C CNN "Kaina"
+F 7 "0805" H 12225 9450 60  0001 C CNN "Korpusas"
+F 8 "1" H 12325 9550 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 12425 9650 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 12525 9750 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 12625 9850 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 12725 9950 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 12800 8950 60  0001 C CNN "Korpuso tipas"
+	1    11800 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 8800 11800 8500
+Connection ~ 11800 8500
+Wire Wire Line
+	11800 9100 11800 9200
+Connection ~ 12400 9200
+$Comp
+L C_100n_0805_X7R C109
+U 1 1 598F80AC
+P 11450 8750
+F 0 "C109" H 11475 8850 50  0000 L CNN
+F 1 "C_100n_0805_X7R" H 11250 8650 50  0001 L CNN
+F 2 "capacitors:C_0805" H 11488 8600 50  0001 C CNN
+F 3 "" H 11475 8850 50  0001 C CNN
+F 4 "ZKN065" H 11575 8950 60  0001 C CNN "ventcode"
+F 5 "100n" H 11650 8750 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 11775 9150 60  0001 C CNN "Kaina"
+F 7 "0805" H 11875 9250 60  0001 C CNN "Korpusas"
+F 8 "1" H 11975 9350 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 12075 9450 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 12175 9550 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 12275 9650 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 12375 9750 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 12450 8750 60  0001 C CNN "Korpuso tipas"
+	1    11450 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 8600 11450 8500
+Connection ~ 11450 8500
+Wire Wire Line
+	11450 8900 11450 9200
+Connection ~ 11800 9200
+$Comp
+L R_1k_0805_1% R4
+U 1 1 598FAD0A
+P 13700 5450
+F 0 "R4" H 13600 5550 60  0000 C CNN
+F 1 "R_1k_0805_1%" H 15150 5450 60  0001 C CNN
+F 2 "resistors:R_0805" H 14550 5350 60  0001 C CNN
+F 3 "" H 12100 5950 60  0001 C CNN
+F 4 "ZELRS061" H 13700 5250 60  0001 C CNN "ventcode"
+F 5 "1k" H 13750 5550 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 14900 5250 60  0001 C CNN "Kaina"
+F 7 "0805" H 15200 5350 60  0001 C CNN "Korpusas"
+F 8 "1" H 14650 5250 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 15250 5250 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 14450 5450 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 14200 5250 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 14300 5250 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 15500 5350 60  0001 C CNN "Korpuso tipas"
+	1    13700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1k_0805_1% R5
+U 1 1 598FAEE1
+P 13700 5700
+F 0 "R5" H 13650 5800 60  0000 C CNN
+F 1 "R_1k_0805_1%" H 15150 5700 60  0001 C CNN
+F 2 "resistors:R_0805" H 14550 5600 60  0001 C CNN
+F 3 "" H 12100 6200 60  0001 C CNN
+F 4 "ZELRS061" H 13700 5500 60  0001 C CNN "ventcode"
+F 5 "1k" H 13800 5800 60  0000 C CNN "Nominalas"
+F 6 "0.001" H 14900 5500 60  0001 C CNN "Kaina"
+F 7 "0805" H 15200 5600 60  0001 C CNN "Korpusas"
+F 8 "1" H 14650 5500 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 15250 5500 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 14450 5700 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 14200 5500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 14300 5500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 15500 5600 60  0001 C CNN "Korpuso tipas"
+	1    13700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EL19-21SYGC D2
+U 1 1 598FAFC6
+P 14200 5450
+F 0 "D2" H 14250 5550 59  0000 C CNN
+F 1 "EL19-21SYGC" H 14800 5200 50  0001 C CNN
+F 2 "disc:LED_0603" H 15050 5300 50  0001 C CNN
+F 3 "" H 14200 5550 50  0001 C CNN
+F 4 "ZELD010" H 14200 5250 60  0001 C CNN "ventcode"
+F 5 "green" H 15250 5200 60  0001 C CNN "Nominalas"
+F 6 "0.03" H 14650 5300 60  0001 C CNN "Kaina"
+F 7 "0603" H 14700 5400 60  0001 C CNN "Korpusas"
+F 8 "1" H 14900 5400 60  0001 C CNN "Aukstis"
+F 9 "EL19-21SYGC" H 14200 5350 60  0001 C CNN "Marke"
+F 10 "Sviesos Diodas" H 15300 5400 60  0001 C CNN "Pavadinimas"
+F 11 "EL19-21SYGC" H 14900 5500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 15300 5500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 15450 5500 60  0001 C CNN "Korpuso tipas"
+F 14 "green" H 15500 5300 60  0001 C CNN "Parametras"
+F 15 "-" H 15450 5200 60  0001 C CNN "Komentaras"
+	1    14200 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L EL19-21SYGC D3
+U 1 1 598FB250
+P 14200 5700
+F 0 "D3" H 14250 5800 59  0000 C CNN
+F 1 "EL19-21SYGC" H 14800 5450 50  0001 C CNN
+F 2 "disc:LED_0603" H 15050 5550 50  0001 C CNN
+F 3 "" H 14200 5800 50  0001 C CNN
+F 4 "ZELD010" H 14200 5500 60  0001 C CNN "ventcode"
+F 5 "green" H 15250 5450 60  0001 C CNN "Nominalas"
+F 6 "0.03" H 14650 5550 60  0001 C CNN "Kaina"
+F 7 "0603" H 14700 5650 60  0001 C CNN "Korpusas"
+F 8 "1" H 14900 5650 60  0001 C CNN "Aukstis"
+F 9 "EL19-21SYGC" H 14200 5600 60  0001 C CNN "Marke"
+F 10 "Sviesos Diodas" H 15300 5650 60  0001 C CNN "Pavadinimas"
+F 11 "EL19-21SYGC" H 14900 5750 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 15300 5750 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 15450 5750 60  0001 C CNN "Korpuso tipas"
+F 14 "green" H 15500 5550 60  0001 C CNN "Parametras"
+F 15 "-" H 15450 5450 60  0001 C CNN "Komentaras"
+	1    14200 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14050 5700 13950 5700
+Wire Wire Line
+	14050 5450 13950 5450
+Wire Wire Line
+	13450 5450 13350 5450
+Wire Wire Line
+	13450 5700 13350 5700
+$Comp
+L Jumper JP1
+U 1 1 598FBBE1
+P 13050 5450
+F 0 "JP1" H 13050 5600 50  0000 C CNN
+F 1 "Jumper" H 13050 5370 50  0001 C CNN
+F 2 "mech:SMD_Jumper" H 13050 5450 50  0001 C CNN
+F 3 "" H 13050 5450 50  0001 C CNN
+	1    13050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper JP2
+U 1 1 598FBFFC
+P 13050 5700
+F 0 "JP2" H 13050 5850 50  0000 C CNN
+F 1 "Jumper" H 13050 5620 50  0001 C CNN
+F 2 "mech:SMD_Jumper" H 13050 5700 50  0001 C CNN
+F 3 "" H 13050 5700 50  0001 C CNN
+	1    13050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 5450 14500 5450
+Wire Wire Line
+	14350 5700 14900 5700
+Connection ~ 14500 5700
+Text Label 14900 5700 2    60   ~ 0
+COM
+Wire Wire Line
+	12750 5450 12300 5450
+Wire Wire Line
+	12750 5700 12300 5700
+Text Label 12300 5450 0    60   ~ 0
+PC8
+Text Label 12300 5700 0    60   ~ 0
+PC9
+Wire Wire Line
+	14500 5450 14500 5700
+Wire Wire Line
+	12600 3600 11800 3600
+Text Label 11800 3600 0    60   ~ 0
+COM
 $EndSCHEMATC
