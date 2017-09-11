@@ -3,7 +3,7 @@
   (general
     (links 198)
     (no_connects 0)
-    (area 192.210001 69.39 256.996669 145.665)
+    (area 122.780001 58.26 187.566669 134.535)
     (thickness 1.6)
     (drawings 108)
     (tracks 709)
@@ -14,25 +14,25 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
-    (36 B.SilkS user)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
+    (32 B.Adhes user hide)
+    (33 F.Adhes user hide)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
-    (38 B.Mask user)
-    (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (38 B.Mask user hide)
+    (39 F.Mask user hide)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
-    (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
-    (48 B.Fab user)
+    (45 Margin user hide)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
+    (48 B.Fab user hide)
     (49 F.Fab user)
   )
 
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 123.99 72.2)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFDFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
@@ -329,7 +329,7 @@
     (add_net /VDD)
   )
 
-  (module disc:D_MiniMELF (layer F.Cu) (tedit 59842228) (tstamp 598D879F)
+  (module disc:D_MiniMELF (layer F.Cu) (tedit 59A7FAFF) (tstamp 598D879F)
     (at 162.9765 79.418 270)
     (descr "Diode Mini-MELF")
     (tags "Diode Mini-MELF")
@@ -338,11 +338,11 @@
     (fp_text reference D1 (at 4.312 -0.0435 270) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value D_BAS32 (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D_BAS32 (at 3.682 -0.0135 270) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 -1.524 270) (layer F.Fab)
-      (effects (font (size 0.5 0.5) (thickness 0.075)))
+      (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_line (start 1.75 -1) (end -2.55 -1) (layer F.SilkS) (width 0.12))
     (fp_line (start -2.55 -1) (end -2.55 1) (layer F.SilkS) (width 0.12))
@@ -392,7 +392,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 59904396)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB6A) (tstamp 59904396)
     (at 142.25 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -400,7 +400,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -411,7 +411,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F5C44) (tstamp 5990438D)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA69) (tstamp 5990438D)
     (at 157.5 85)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -419,7 +419,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -430,7 +430,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F5C44) (tstamp 5990436A)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA50) (tstamp 5990436A)
     (at 148.55 82.21)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -438,7 +438,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -449,7 +449,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F66EC)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA8D) (tstamp 598F66EC)
     (at 157.96 112.093)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -457,7 +457,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -468,7 +468,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F5C44) (tstamp 598F66E2)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA77) (tstamp 598F66E2)
     (at 147.15 95.92)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -476,7 +476,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -487,7 +487,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F66C4)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA87) (tstamp 598F66C4)
     (at 159.38 102.13)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -495,7 +495,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -525,7 +525,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6232)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA47) (tstamp 598F6232)
     (at 158.77 77.45)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -533,7 +533,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -544,7 +544,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F621A)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA57) (tstamp 598F621A)
     (at 170.66 80.533)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -552,7 +552,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -563,7 +563,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6212)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA53) (tstamp 598F6212)
     (at 167.866 82.819)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -571,7 +571,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -582,7 +582,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F620A)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA7E) (tstamp 598F620A)
     (at 172.438 98.44)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -590,7 +590,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -601,7 +601,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6202)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA73) (tstamp 598F6202)
     (at 169.9 94.84)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -609,7 +609,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -620,7 +620,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F61FA)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA79) (tstamp 598F61FA)
     (at 164.945 95.646)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -628,7 +628,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -639,7 +639,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F61F2)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA6F) (tstamp 598F61F2)
     (at 151.98 93.2)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -647,7 +647,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -658,7 +658,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F61EA)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA6C) (tstamp 598F61EA)
     (at 159.103 90.439)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -666,7 +666,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -677,7 +677,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F5C44) (tstamp 598F61D4)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA7C) (tstamp 598F61D4)
     (at 153.29 96.71)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -685,7 +685,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -696,7 +696,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F5471) (tstamp 598F61C2)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA81) (tstamp 598F61C2)
     (at 152.04 99.09)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -704,7 +704,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -715,7 +715,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F5471) (tstamp 598F61B0)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA8A) (tstamp 598F61B0)
     (at 155.31 102.33)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -723,7 +723,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -734,7 +734,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6193)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB4A) (tstamp 598F6193)
     (at 143.139 125.1105)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -742,7 +742,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -753,7 +753,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6181)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB56) (tstamp 598F6181)
     (at 173.2 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -761,7 +761,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -772,7 +772,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6179)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB5A) (tstamp 598F6179)
     (at 168.12 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -780,7 +780,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -791,7 +791,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6171)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB5E) (tstamp 598F6171)
     (at 163.04 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -799,7 +799,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -810,7 +810,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6169)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB62) (tstamp 598F6169)
     (at 157.96 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -818,7 +818,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -829,7 +829,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6161)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB66) (tstamp 598F6161)
     (at 152.88 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -837,7 +837,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -848,7 +848,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6159)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FB6D) (tstamp 598F6159)
     (at 147.8 131.46)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -856,7 +856,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -962,7 +962,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F6113)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA3D) (tstamp 598F6113)
     (at 153.769 74.183)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -970,7 +970,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -981,7 +981,7 @@
       (net 2 /COM) (zone_connect 2))
   )
 
-  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 598F53C7) (tstamp 598F610B)
+  (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 59A7FA41) (tstamp 598F610B)
     (at 144.752 74.183)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
@@ -989,7 +989,7 @@
     (fp_text reference REF** (at 0.127 -0.635) (layer F.SilkS) hide
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab)
+    (fp_text value Measurement_Point_Square-TH_Small (at 0 2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 -1) (end 1 -1) (layer F.CrtYd) (width 0.05))
@@ -1268,7 +1268,7 @@
     (fp_text reference C5 (at 0.1285 1.414 270) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 270) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at 0.4685 1.064 270) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
@@ -1304,7 +1304,7 @@
     (fp_text reference C10 (at 0 -1.524 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 90) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at 0 -0.99 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -1340,10 +1340,10 @@
     (fp_text reference C12 (at -0.01 1.241 90) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 90) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at 0.07 0.951 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at -0.13 -0.149 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -1376,7 +1376,7 @@
     (fp_text reference C13 (at 0 1.524 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 180) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at -0.086 1.225 180) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -1412,7 +1412,7 @@
     (fp_text reference C1 (at 0 1.453 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_22p_0805_X7R (at 0 1.75 180) (layer F.Fab)
+    (fp_text value C_22p_0805_X7R (at -0.044 1.113 180) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -1448,7 +1448,7 @@
     (fp_text reference C2 (at 0 -1.507 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_22p_0805_X7R (at 0 1.75 180) (layer F.Fab)
+    (fp_text value C_22p_0805_X7R (at -0.144 -1.147 180) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -1484,7 +1484,7 @@
     (fp_text reference C3 (at 0.006 -1.408) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_22p_0805_X7R (at 0 1.75) (layer F.Fab)
+    (fp_text value C_22p_0805_X7R (at 0.056 -1.168) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -1520,7 +1520,7 @@
     (fp_text reference C4 (at 3.302 0 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_22p_0805_X7R (at 0 1.75 180) (layer F.Fab)
+    (fp_text value C_22p_0805_X7R (at -0.144 1.136 180) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -1556,7 +1556,7 @@
     (fp_text reference R3 (at -0.098 -1.414 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value R_15k_0805_1% (at 0 1.27 90) (layer F.Fab)
+    (fp_text value R_15k_0805_1% (at 0 -1.164 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -1592,7 +1592,7 @@
     (fp_text reference R7 (at -2.83 0.426 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value R_1k_0805_1% (at 0 1.27) (layer F.Fab)
+    (fp_text value R_1k_0805_1% (at 0.12 -0.984) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -1619,7 +1619,7 @@
     )
   )
 
-  (module ics:SOT-23-5 (layer F.Cu) (tedit 598D8918) (tstamp 598D87D6)
+  (module ics:SOT-23-5 (layer F.Cu) (tedit 59A7FA9B) (tstamp 598D87D6)
     (at 170.97 72.702 270)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -1628,8 +1628,8 @@
     (fp_text reference U2 (at 3.513 -0.452 450) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value SIP21106 (at 0 2.9 270) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value SIP21106 (at 1.998 0.08 360) (layer F.Fab)
+      (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 360) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.075)))
@@ -1992,7 +1992,7 @@
     )
   )
 
-  (module mech:Pin_Header_Straight_2x25_Pitch2.54mm (layer F.Cu) (tedit 599135B0) (tstamp 598E09AB)
+  (module mech:Pin_Header_Straight_2x25_Pitch2.54mm (layer F.Cu) (tedit 59A7FB4E) (tstamp 598E09AB)
     (at 137.63 67.92)
     (descr "Through hole straight pin header, 2x25, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x25 2.54mm double row")
@@ -2000,7 +2000,7 @@
     (fp_text reference J1 (at 1.27 -2.33) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
-    (fp_text value PinHeader_02X25 (at 1.27 63.29) (layer F.Fab)
+    (fp_text value PinHeader_02X25 (at 1.27 63.29) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer F.Fab) (width 0.1))
@@ -2130,7 +2130,7 @@
     )
   )
 
-  (module mech:Pin_Header_Straight_2x25_Pitch2.54mm (layer F.Cu) (tedit 598F4D8D) (tstamp 598E09F3)
+  (module mech:Pin_Header_Straight_2x25_Pitch2.54mm (layer F.Cu) (tedit 59A7FB51) (tstamp 598E09F3)
     (at 175.73 67.96)
     (descr "Through hole straight pin header, 2x25, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x25 2.54mm double row")
@@ -2138,7 +2138,7 @@
     (fp_text reference J2 (at 1.27 -2.33) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
-    (fp_text value PinHeader_02X25 (at 1.27 63.29) (layer F.Fab)
+    (fp_text value PinHeader_02X25 (at 1.27 63.29) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer F.Fab) (width 0.1))
@@ -2313,7 +2313,7 @@
     (fp_text reference D2 (at 1.524 -1.64 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value D_BAS85 (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D_BAS85 (at -0.016 1.31 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 -1.524 90) (layer F.Fab)
@@ -2357,7 +2357,7 @@
     (fp_text reference R1 (at -0.096 1.547 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value R_10k_0805_1% (at 0 1.27 90) (layer F.Fab)
+    (fp_text value R_10k_0805_1% (at -0.636 1.297 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -2429,7 +2429,7 @@
     (fp_text reference C6 (at -0.065 1.46 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 90) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at -0.305 1.11 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -2568,7 +2568,7 @@
     )
   )
 
-  (module capacitors:C_0805 (layer F.Cu) (tedit 59648246) (tstamp 598F5F46)
+  (module capacitors:C_0805 (layer F.Cu) (tedit 59A7FAE1) (tstamp 598F5F46)
     (at 157.706 80.93 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -2577,7 +2577,7 @@
     (fp_text reference C8 (at -0.043 -1.542001 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 90) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at -0.07 -1.116 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -2790,7 +2790,7 @@
     )
   )
 
-  (module capacitors:C_1206 (layer F.Cu) (tedit 599010BC) (tstamp 59903EC0)
+  (module capacitors:C_1206 (layer F.Cu) (tedit 59A7FB3A) (tstamp 59903EC0)
     (at 144.48 95.9 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
@@ -2799,11 +2799,11 @@
     (fp_text reference C7 (at -1.01 1.69 90) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.1875)))
     )
-    (fp_text value C_1u_0805_X7R (at 0 2 90) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value C_1u_0805_X7R (at 0 1.41 90) (layer F.Fab)
+      (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
-    (fp_text user %R (at 0 -1.75 90) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text user %R (at 2.8 0.11 90) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer F.Fab) (width 0.1))
@@ -2835,7 +2835,7 @@
     (fp_text reference C11 (at -0.02 -1.36 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value C_100n_0805_X7R (at 0 1.75 90) (layer F.Fab)
+    (fp_text value C_100n_0805_X7R (at 3.76 0 90) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
